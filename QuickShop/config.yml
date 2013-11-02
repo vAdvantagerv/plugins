@@ -1,0 +1,48 @@
+#Tax amount (decimal) - Eg, P1 buys $50 worth of stuff from P2.  Therefore, P1 loses $50, P2 gains $(1-0.05)*50, and tax-account gains $(0.05)*50.
+tax: 0
+#The fake player who money from taxing people goes to
+tax-account: tax
+
+#Should we log transactions/creations to Bukkit\Plugins\QuickShop\qs.log?
+log-actions: true
+
+#Advanced.  This chooses which economy to hook into.  If it fails, it will fall back to trying vault. Spelling must be exact. Case insensitive.
+# Vault - Will hook into anything vault can hook into (Vault is required for this to work)
+# Satoshis
+# Want yours added? Contact me (Netherfoam) on dev.bukkit.org
+economy: Vault
+
+database:
+    mysql: true
+    host: localhost
+    port: 3306
+    database: minecraft
+    user: minecraft
+    password: minecraft
+
+shop:
+    #Cost to make a stall
+    cost: 1
+    #Should we refund when their shops are deleted/removed/broken?
+    refund: true
+    #Should we try and lock their shops from other players, so people can't steal from them?
+    lock: true
+    #Should we require players be sneaking to create and use shops?
+    sneak-only: false
+    #Should we automatically create the sign for the chest?
+    auto-sign: true
+    #If a player owns an unlimited shop, should they receive the cash from it or not?
+    #If you buy from YOUR unlimited shop, you will NEVER be charged $$, regardless of this setting
+    pay-unlimited-shop-owners: false
+    #Should we place display items on the chests?
+    display-items: true
+    #Should we place item frames on chests?
+    frame-items: true
+    #When someone uses /qs find <item>, how far should we search in blocks?
+    #This command lets users shop quickly without wasting time searching
+    #Settings > 100 WILL cause lag. Don't do it, or don't cry when your server lags.
+    find-distance: 45
+
+#List of items to disallow selling of.  Anyone with quickshop.bypass.<itemID> can bypass it    
+blacklist:
+    - 7 #Bedrock

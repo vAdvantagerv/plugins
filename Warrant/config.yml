@@ -1,0 +1,51 @@
+forum:
+    # Want to use information from a custom profile field instead of the user's forum username?
+    multitable: false
+    # Want to use a comma seperated list of additional groups to assign your member?
+    use-additional-groups: false
+    # Bung in the info on where to look for the member data
+    usertable:
+        name: member
+        group-field: groups
+        username-field: name
+        additional-groups-field: denied
+        key-field: id
+    # This part ONLY counts if you've used 'multitable'. Make sure to match the key-fields up!
+    profiletable:
+        name: smf_custom_fields
+        key-field: id
+        minecraft-name-field:
+# Stick your database info here
+database:
+    host: 'localhost'
+    port: '3306'
+    db: 'minecraft'
+    user: 'minecraft'
+    pass: 'minecraft'
+# Which worlds on your server should Warrant affect the permissions for?
+worlds:
+    - world
+# What you gonna tell peeps that aren't whitelisted? (PS, telling them to go and register on the forum would be a good idea. Telling them to fuck off, would not)
+kick-message: 'Sorry, you are not permitted to login to the server at your current rank'
+# Tell players that they've been assigned ranks when they login, or just do it silently in the background?
+notify-group-on-login: true
+# Keep out those who aren't in any group stated below (true), or shall we let them in and assign them to the default permissions group (false)?
+whitelist-default: true
+# Stick all the mappings here for any groups you wish tp be auto-ranked
+# Make sure to surround the number in single quotes (''), else it may just self-destruct and noone wants that
+groups:
+    '1':
+        rank: admin
+        whitelisted: true
+    '200':
+        rank: mod
+        whitelisted: true
+    '900':
+        rank: regidence
+        whitelisted: true
+    '1000':
+        rank: guest
+        whitelisted: true
+    '199':
+        rank: modtemp
+        whitelisted: true

@@ -1,0 +1,3213 @@
+groups:
+  guest:
+    default: true
+    permissions:
+    - modifyworld.chat
+    - commandbook.who
+    - commandbook.motd
+    - commandbook.intro
+    - commandbook.rules
+    - commandbook.say
+    - commandbook.say.me
+    - commandbook.msg
+    - commandbook.whereami
+    - commandbook.whereami.compass
+    - commandbook.midi
+    - commandbook.clear
+    - multiverse.access.*
+    - multiverse.portal.access.*
+    - stats.track
+    options:
+      rank: '1000'
+    prefix: ''
+  regidence:
+    inheritance:
+    - guest
+    permissions:
+    - modifyworld.*
+    - commandbook.whois
+    - dynmap.render
+    - dynmap.show.self
+    - dynmap.hide.self
+    - dynmap.marker.sign
+    - dyntrack.info.*
+    - dyntrack.edit.*
+    - dyntrack.del.*
+    - dyntrack.create.*
+    - deadbolt.user.*
+    - preciousstones.benefit.*
+    - preciousstones.whitelist.*
+    - -simpleclans.member.home
+    - -simpleclans.leader.home-regroup
+    - simpleclans.anyone.*
+    - simpleclans.member.*
+    - simpleclans.leader.*
+    - quickshop.use
+    - quickshop.create.sell
+    - quickshop.create.buy
+    - quickshop.find
+    - wa.cansell
+    - wa.canbuy
+    - -wa.vbox
+    - wa.use.withdraw.items
+    - wa.use.deposit.items
+    - wa.create.sign.mailbox.withdraw
+    - wa.create.sign.mailbox.deposit
+    - wa.remove
+    - pvparena.user
+    - mobarena.use.*
+    - sg.arena.join.*
+    - sg.arena.vote
+    - scavenger.scavenge
+    - scavenger.self.on
+    - scavenger.self.off
+    - scavenger.list
+    - trade.ignore
+    - trade.request.*
+    - trade.accept-request.*
+    - stats.sign.place
+    - stats.sign.destory
+    worlds:
+      adventure-1:
+        permissions:
+        - -modifyworld.blocks.destroy.*
+        - -modifyworld.blocks.place.*
+        - -modifyworld.items.pickup.*
+        - -modifyworld.items.drop.*
+        - -modifyworld.items.have.*
+        - -modifyworld.items.use.*
+      resource-1:
+        permissions:
+        - -preciousstones.benefit.*
+        - -preciousstones.whitelist.*
+    options:
+      rank: '900'
+    prefix: ' '
+  mod:
+    inheritance:
+    - regidence
+    permissions:
+    - commandbook.mute
+    - playerfreeze.warn
+    - playerfreeze.warnall
+    - playerfreeze.freeze
+    - playerfreeze.freezeall
+    - prism.alerts
+    options:
+      rank: '200'
+    prefix: ' '
+  admin:
+    permissions:
+    - '*'
+    options:
+      rank: '0'
+  cb-invincible: {}
+  wg-amphibious: {}
+  timer:1: {}
+  wg-invincible: {}
+users:
+  dfdgsdfg:
+    group:
+    - regidence
+    options:
+      group: residence
+    permissions:
+    - worldedit.*
+    - worldguard.*
+    - permissions.*
+    - commandbook.*
+    - wa.*
+    - vanish.*
+    - prism.*
+  bearics:
+    group:
+    - regidence
+  bocker:
+    group:
+    - regidence
+  CANTONA:
+    group:
+    - regidence
+  Either:
+    group:
+    - regidence
+  zombiestar:
+    group:
+    - regidence
+  2012star:
+    group:
+    - regidence
+  Nino_Maximus:
+    group:
+    - regidence
+  Sacing:
+    group:
+    - SCTrusted
+    - Clanvadv
+    - regidence
+  Mind:
+    group:
+    - regidence
+  DarkSoul:
+    group:
+    - SCTrusted
+    - Clanvadv
+    - regidence
+  masisjjung:
+    group:
+    - regidence
+  ChuChu:
+    group:
+    - SCTrusted
+    - Clanvadv
+    - regidence
+  Moza:
+    group:
+    - regidence
+  mazenta:
+    permissions:
+    - mobarena.*
+    - pvparena.*
+    - jail.*
+    group:
+    - regidence
+  '418':
+    group:
+    - regidence
+  jun0gon123:
+    group:
+    - regidence
+  ufloot:
+    group:
+    - regidence
+  cocomon:
+    group:
+    - regidence
+  Rookey:
+    group:
+    - regidence
+  JJO:
+    group:
+    - regidence
+  kihu333:
+    group:
+    - regidence
+  ArtPlayNio:
+    group:
+    - regidence
+  KSW:
+    group:
+    - regidence
+  daya:
+    group:
+    - regidence
+  Rabbit:
+    group:
+    - regidence
+  american:
+    group:
+    - regidence
+  MIMYO:
+    group:
+    - regidence
+  Roll1:
+    group:
+    - regidence
+  janghan8:
+    group:
+    - regidence
+  bibong:
+    group:
+    - regidence
+  rkd1en2:
+    group:
+    - regidence
+  ghyj4515:
+    group:
+    - regidence
+  americam:
+    group:
+    - regidence
+  sks8ui9o:
+    group:
+    - regidence
+  ITM0315:
+    group:
+    - regidence
+  Ryutas:
+    group:
+    - regidence
+  vAdvantagev:
+    group:
+    - mod
+    permissions:
+    - commandbook.item
+  J_Beer:
+    group:
+    - regidence
+  jea7039:
+    group:
+    - regidence
+  jk103:
+    group:
+    - regidence
+  PHB:
+    group:
+    - regidence
+  whdlsxor198:
+    group:
+    - regidence
+  gaydol:
+    group:
+    - regidence
+  SmartMIOo:
+    group:
+    - regidence
+  wo:
+    group:
+    - regidence
+  illusion:
+    group:
+    - regidence
+  p51111:
+    group:
+    - regidence
+  HwalJeong:
+    group:
+    - regidence
+  qhrms4175:
+    group:
+    - regidence
+  wjsqjadud159:
+    group:
+    - regidence
+  WattMart:
+    group:
+    - regidence
+  indejeC:
+    group:
+    - regidence
+  Bt:
+    group:
+    - regidence
+  Plant4:
+    group:
+    - regidence
+  K2way3:
+    group:
+    - regidence
+  jjh7228:
+    group:
+    - regidence
+  Dons:
+    group:
+    - regidence
+  BuzsBike:
+    group:
+    - regidence
+  rrhoi:
+    group:
+    - regidence
+  wonphll536:
+    group:
+    - regidence
+  niketown97:
+    group:
+    - regidence
+  Hg4Ty3:
+    group:
+    - regidence
+  gsdgcx:
+    group:
+    - regidence
+  humon:
+    group:
+    - regidence
+  Betbuc:
+    group:
+    - regidence
+  Skeleton321:
+    group:
+    - regidence
+  SouthMino:
+    group:
+    - regidence
+  Damic:
+    group:
+    - regidence
+  unziman:
+    group:
+    - regidence
+  Advantage:
+    group:
+    - regidence
+  Albert:
+    group:
+    - regidence
+  ljhpch111:
+    group:
+    - regidence
+  DISKs:
+    group:
+    - regidence
+  Wondoo:
+    group:
+    - regidence
+  SaSa:
+    group:
+    - regidence
+  xls5151:
+    group:
+    - regidence
+  gukdori:
+    group:
+    - SCUntrusted
+    - Clandune
+    - regidence
+  RyRe:
+    group:
+    - regidence
+  Ekarus:
+    group:
+    - regidence
+  dksxodud686:
+    group:
+    - regidence
+  bluesweet:
+    group:
+    - regidence
+  huochick7:
+    group:
+    - regidence
+  Lim_Folder:
+    group:
+    - regidence
+  linkmaster:
+    group:
+    - regidence
+  JeonJaeMan:
+    group:
+    - regidence
+  qkqh:
+    group:
+    - regidence
+  lhs9842:
+    group:
+    - regidence
+  andrew212:
+    group:
+    - regidence
+  g492:
+    group:
+    - regidence
+  Toilet:
+    group:
+    - regidence
+  kjwmi:
+    group:
+    - regidence
+  Donts:
+    group:
+    - regidence
+  barlbarl:
+    group:
+    - regidence
+  CooTion:
+    group:
+    - regidence
+  uncivilman:
+    group:
+    - regidence
+  cancider:
+    group:
+    - regidence
+  Siquele:
+    group:
+    - regidence
+  changHun:
+    group:
+    - regidence
+  OptimuSeok:
+    group:
+    - regidence
+  lefd:
+    group:
+    - regidence
+  lmhyeok:
+    group:
+    - regidence
+  ccobugi:
+    group:
+    - regidence
+  raiakk:
+    group:
+    - regidence
+  Hamme:
+    group:
+    - regidence
+  tnsrhek:
+    group:
+    - regidence
+  ITM2597:
+    group:
+    - regidence
+  DDDDDQQQQQ:
+    group:
+    - regidence
+  Y00n:
+    group:
+    - regidence
+  tjdgusdkf:
+    group:
+    - regidence
+  11st:
+    group:
+    - regidence
+  Gaga:
+    group:
+    - regidence
+  Melon:
+    group:
+    - regidence
+  Su_Koo:
+    group:
+    - regidence
+  dhnald:
+    group:
+    - SCUntrusted
+    - Clandune
+    - regidence
+  V3:
+    group:
+    - regidence
+  ruio99:
+    group:
+    - regidence
+  Mercenary_K:
+    group:
+    - regidence
+  sudalasan:
+    group:
+    - regidence
+  novel:
+    group:
+    - regidence
+  Fera:
+    group:
+    - regidence
+  rlaxorb0826:
+    group:
+    - regidence
+  kindgivum:
+    group:
+    - regidence
+  hwseo7:
+    group:
+    - regidence
+  Chunguk:
+    group:
+    - regidence
+  zacoshoter:
+    group:
+    - regidence
+  Zico:
+    group:
+    - regidence
+  Jun:
+    group:
+    - regidence
+  Kw2bys:
+    group:
+    - regidence
+  SamSoungPhone:
+    group:
+    - regidence
+  Blaw:
+    group:
+    - regidence
+  juno:
+    group:
+    - regidence
+  Soble:
+    group:
+    - regidence
+  Tukjugaria:
+    group:
+    - regidence
+  iakxm2:
+    group:
+    - regidence
+  DecoHat:
+    group:
+    - regidence
+  PLTK:
+    group:
+    - regidence
+  kr96259:
+    group:
+    - regidence
+  Goodgaym:
+    group:
+    - regidence
+  natural:
+    group:
+    - regidence
+  kewe:
+    group:
+    - regidence
+  KorTrojan:
+    group:
+    - regidence
+  cicada:
+    group:
+    - regidence
+  Lang:
+    group:
+    - regidence
+  sexiest:
+    group:
+    - regidence
+  Toss0819:
+    group:
+    - regidence
+  TKTechman:
+    group:
+    - regidence
+  Oops321:
+    group:
+    - regidence
+  teayeon98:
+    group:
+    - regidence
+  Checker:
+    group:
+    - regidence
+  eonred:
+    group:
+    - regidence
+  whdgusbb:
+    group:
+    - regidence
+  KirenSia:
+    group:
+    - regidence
+  oij1234:
+    group:
+    - regidence
+  Ark:
+    group:
+    - regidence
+  Pairi:
+    group:
+    - regidence
+  apple7757:
+    group:
+    - regidence
+  kashimatus:
+    group:
+    - regidence
+  woopX6:
+    group:
+    - regidence
+  Player:
+    group:
+    - regidence
+  aaa13:
+    group:
+    - regidence
+  krukru:
+    group:
+    - regidence
+  do2dkd:
+    group:
+    - regidence
+  Flacon:
+    group:
+    - regidence
+  exitlights:
+    group:
+    - regidence
+  toto8359:
+    group:
+    - regidence
+  KKK:
+    group:
+    - regidence
+  dricto:
+    group:
+    - regidence
+  Gh0st:
+    group:
+    - regidence
+  Legend:
+    group:
+    - regidence
+  BrunoMars:
+    group:
+    - regidence
+  banana7757:
+    group:
+    - regidence
+  Fractal:
+    group:
+    - regidence
+  Oxchun:
+    group:
+    - regidence
+  sunslasher:
+    group:
+    - regidence
+  Drift:
+    group:
+    - regidence
+  Monkey:
+    group:
+    - regidence
+  Handrake:
+    group:
+    - regidence
+  dnjs4955:
+    group:
+    - regidence
+  Poison:
+    group:
+    - regidence
+  sirius:
+    group:
+    - regidence
+  Helic_:
+    group:
+    - regidence
+  SoulMin:
+    group:
+    - regidence
+  LostRoastToast:
+    group:
+    - regidence
+  Surplus:
+    group:
+    - regidence
+  LNT:
+    group:
+    - regidence
+  Partrasue_:
+    group:
+    - regidence
+  swb4u1:
+    group:
+    - regidence
+  psje:
+    group:
+    - regidence
+  hent_i:
+    group:
+    - regidence
+  Demonic:
+    group:
+    - regidence
+  TheArchiTEKS:
+    group:
+    - regidence
+  iwquqy:
+    group:
+    - regidence
+  kim5798:
+    group:
+    - regidence
+  weapon:
+    group:
+    - regidence
+  Ryosi:
+    group:
+    - regidence
+  eit200:
+    group:
+    - regidence
+  kor_Gooda:
+    group:
+    - regidence
+  Taepung2:
+    group:
+    - regidence
+  GGAP:
+    group:
+    - regidence
+  red:
+    group:
+    - regidence
+  barrow:
+    group:
+    - regidence
+  SmartLeader:
+    group:
+    - regidence
+  QnRnfnanxn:
+    group:
+    - regidence
+  phone:
+    group:
+    - regidence
+  HuSak:
+    group:
+    - regidence
+  hesamzzing:
+    group:
+    - regidence
+  NERV:
+    group:
+    - regidence
+  silently: {}
+  excitedmap:
+    group:
+    - regidence
+  sookwook2:
+    group:
+    - regidence
+  Ru2se:
+    group:
+    - mod
+  coocoojoa1: {}
+  SSC: {}
+  SScream:
+    group:
+    - regidence
+  ParkSeoYong: {}
+  ktj1902: {}
+  sobu:
+    group:
+    - regidence
+  hsjhsj1216: {}
+  JunGar:
+    group:
+    - regidence
+  Needyhuman:
+    group:
+    - regidence
+  SOOMJEO:
+    group:
+    - regidence
+  whitenht:
+    group:
+    - regidence
+  eachsit:
+    group:
+    - regidence
+  S_Mind:
+    group:
+    - regidence
+  bulship:
+    group:
+    - regidence
+  c:vadv: {}
+  Chunguk2:
+    group:
+    - regidence
+  HHH:
+    group:
+    - regidence
+  SukiDdang:
+    group:
+    - regidence
+  italianstew:
+    group:
+    - regidence
+  siggurun2438: {}
+  ghdzhdrpdlqk11:
+    group:
+    - regidence
+  here:
+    group:
+    - regidence
+  kazeric518:
+    group:
+    - regidence
+  ColorBlossom7:
+    group:
+    - regidence
+  Hinamoru:
+    group:
+    - regidence
+  BLUENESS2:
+    group:
+    - regidence
+  Gaain:
+    group:
+    - regidence
+  dirn214:
+    group:
+    - regidence
+  aplite:
+    group:
+    - regidence
+  parkj96:
+    group:
+    - regidence
+  agau99:
+    group:
+    - regidence
+  kangtaegong:
+    group:
+    - regidence
+  Aramath:
+    group:
+    - regidence
+  Helic:
+    group:
+    - regidence
+  ciizel:
+    group:
+    - mod
+  soju:
+    group:
+    - regidence
+  zKoToBuKiz:
+    group:
+    - regidence
+  banikal:
+    group:
+    - regidence
+  myumyi:
+    group:
+    - regidence
+  kyn369:
+    group:
+    - regidence
+  pppppph:
+    group:
+    - regidence
+  Ark777:
+    group:
+    - regidence
+  didgmlwo94:
+    group:
+    - regidence
+  gomtv:
+    group:
+    - regidence
+  CRP:
+    group:
+    - regidence
+  myumi:
+    group:
+    - regidence
+  gusdl123:
+    group:
+    - regidence
+  jjj1989:
+    group:
+    - regidence
+  yuring04:
+    group:
+    - regidence
+  DDil:
+    group:
+    - regidence
+  PowerMan:
+    group:
+    - regidence
+  YAHOssingnanda:
+    group:
+    - regidence
+  star0523:
+    group:
+    - regidence
+  blurry:
+    group:
+    - regidence
+  Dalnara:
+    group:
+    - regidence
+  jokun:
+    group:
+    - regidence
+  New_bie:
+    group:
+    - regidence
+  Lefield:
+    group:
+    - regidence
+  BearUng:
+    group:
+    - regidence
+  sxz0728:
+    group:
+    - SCUntrusted
+    - Clanlego
+    - regidence
+  Ral2:
+    group:
+    - regidence
+  yyci:
+    group:
+    - regidence
+  Jasmin:
+    group:
+    - regidence
+  HePoTen:
+    group:
+    - regidence
+  ojo0940:
+    group:
+    - regidence
+  YusinK:
+    group:
+    - regidence
+  lady:
+    group:
+    - SCUntrusted
+    - Clanporo
+    - regidence
+  pice444:
+    group:
+    - regidence
+  jiunie5:
+    group:
+    - regidence
+  tlaaksl:
+    group:
+    - regidence
+  KasanovaAnddong:
+    group:
+    - regidence
+  Ataraxia_O:
+    group:
+    - regidence
+  cazin:
+    group:
+    - regidence
+  Nar_gi:
+    group:
+    - regidence
+  sibal:
+    group:
+    - regidence
+  euying:
+    group:
+    - regidence
+  timelord:
+    group:
+    - SCLeader
+    - Clanhmu
+    - regidence
+  siss:
+    group:
+    - regidence
+  Baishan:
+    group:
+    - regidence
+  Cheese:
+    group:
+    - regidence
+  Arkan_Nim:
+    group:
+    - regidence
+  MimyoL:
+    group:
+    - regidence
+  RyoManIN:
+    group:
+    - regidence
+  minas:
+    group:
+    - SCUntrusted
+    - Clanhmu
+    - regidence
+  incadove:
+    group:
+    - regidence
+  ehrrhwnd:
+    group:
+    - regidence
+  jangyoon6:
+    group:
+    - regidence
+  gncnTl:
+    group:
+    - SCUntrusted
+    - Clanporo
+    - regidence
+  pupuru:
+    group:
+    - SCUntrusted
+    - Clanporo
+    - regidence
+  moneygogo:
+    group:
+    - SCUntrusted
+    - Clanporo
+    - regidence
+  minekings:
+    group:
+    - SCUntrusted
+    - Clanporo
+    - regidence
+  Cherryade:
+    group:
+    - regidence
+  Sa_cing:
+    group:
+    - regidence
+  graykitty:
+    group:
+    - SCUntrusted
+    - Clanporo
+    - regidence
+  makergreen:
+    group:
+    - regidence
+  ghdtjrvy2:
+    group:
+    - regidence
+  Ace:
+    group:
+    - regidence
+  MinerAA:
+    group:
+    - regidence
+  illegal37:
+    group:
+    - regidence
+  KimPizza:
+    group:
+    - regidence
+  Dutno:
+    group:
+    - regidence
+  wjseognl:
+    group:
+    - regidence
+  tkdrb9978:
+    group:
+    - regidence
+  england27:
+    group:
+    - regidence
+  ggg:
+    group:
+    - regidence
+  elderanni:
+    group:
+    - regidence
+  elinia:
+    group:
+    - regidence
+  BeaGu:
+    group:
+    - regidence
+  PePeRa:
+    group:
+    - regidence
+  wnsdndl:
+    group:
+    - regidence
+  DdokBbaegi:
+    group:
+    - regidence
+  Simlon:
+    group:
+    - regidence
+  Cherryice:
+    group:
+    - regidence
+  Reward:
+    group:
+    - regidence
+  escapist:
+    group:
+    - regidence
+  Mion_:
+    group:
+    - regidence
+  Shimizu:
+    group:
+    - regidence
+  Aquuak:
+    group:
+    - regidence
+  admin:
+    group:
+    - regidence
+  sts8073:
+    group:
+    - regidence
+  LVG:
+    group:
+    - regidence
+  Siadin:
+    group:
+    - regidence
+  USB:
+    group:
+    - regidence
+  rkdxodn45:
+    group:
+    - regidence
+  ur15942:
+    group:
+    - regidence
+  Ackdong:
+    group:
+    - regidence
+  Cassia:
+    group:
+    - regidence
+  cassia_:
+    group:
+    - regidence
+  gangplank4:
+    group:
+    - regidence
+  ente102:
+    group:
+    - regidence
+  adf111:
+    group:
+    - regidence
+  TONGDARK:
+    group:
+    - regidence
+  Gorgon:
+    group:
+    - regidence
+  doYob:
+    group:
+    - regidence
+  hamster:
+    group:
+    - regidence
+  bosstree:
+    group:
+    - regidence
+  DMZ_:
+    group:
+    - regidence
+  WesBolend:
+    group:
+    - regidence
+  potent:
+    group:
+    - regidence
+  Susa:
+    group:
+    - regidence
+  Janus77:
+    group:
+    - regidence
+  Sin_H:
+    group:
+    - regidence
+  Vangs:
+    group:
+    - guest
+  Comsic_bird:
+    group:
+    - regidence
+  Kobato:
+    group:
+    - regidence
+  SiS:
+    group:
+    - regidence
+  Zecrom_M:
+    group:
+    - regidence
+  Tablo:
+    group:
+    - regidence
+  whitekiller:
+    group:
+    - regidence
+  jini_B:
+    group:
+    - regidence
+  GwangMin:
+    group:
+    - regidence
+  naejong:
+    group:
+    - regidence
+  aqa0895:
+    group:
+    - regidence
+  darkznsa:
+    group:
+    - regidence
+  Razully:
+    group:
+    - regidence
+  ANGEL:
+    group:
+    - regidence
+  Hplus_:
+    group:
+    - regidence
+  nugul_:
+    group:
+    - regidence
+  shinssi:
+    group:
+    - regidence
+  as1212as:
+    group:
+    - regidence
+  will:
+    group:
+    - regidence
+  qwertyy0:
+    group:
+    - regidence
+  Hush_:
+    group:
+    - regidence
+  qqww1219:
+    group:
+    - regidence
+  supertank5424:
+    group:
+    - regidence
+  zodiac2543:
+    group:
+    - regidence
+  nyamul:
+    group:
+    - regidence
+  lshell23:
+    group:
+    - regidence
+  TPsw_:
+    group:
+    - regidence
+  pup1001:
+    group:
+    - regidence
+  Cloud:
+    group:
+    - regidence
+  Thegmo:
+    group:
+    - regidence
+  apuremiso:
+    group:
+    - regidence
+  zziyoe:
+    group:
+    - SCUntrusted
+    - Clandune
+    - regidence
+  TEN:
+    group:
+    - regidence
+  jahdd:
+    group:
+    - regidence
+  longcat:
+    group:
+    - SCUntrusted
+    - Clandune
+    - regidence
+  Mandoros:
+    group:
+    - regidence
+  kirin:
+    group:
+    - regidence
+  ByulGa:
+    group:
+    - regidence
+  Maru17:
+    group:
+    - regidence
+  BlueSky2:
+    group:
+    - regidence
+  mandog:
+    group:
+    - regidence
+  Quiz:
+    group:
+    - regidence
+  Cubeindex:
+    group:
+    - regidence
+  jorangmal:
+    group:
+    - regidence
+  irkjrkhp:
+    group:
+    - regidence
+  item:
+    group:
+    - regidence
+  gusdud471:
+    group:
+    - regidence
+  ozme:
+    group:
+    - regidence
+  Berry__:
+    group:
+    - regidence
+  shakfmwl:
+    group:
+    - regidence
+  SkyBlue:
+    group:
+    - regidence
+  leebine:
+    group:
+    - regidence
+  MIR:
+    group:
+    - regidence
+  jjangsam:
+    group:
+    - regidence
+  minji:
+    group:
+    - regidence
+  yuna:
+    group:
+    - regidence
+  Yuna11:
+    group:
+    - regidence
+  SBDdontle:
+    group:
+    - regidence
+  vegemilA:
+    group:
+    - regidence
+  WhBlock:
+    group:
+    - regidence
+  gogod951:
+    group:
+    - regidence
+  Issabel:
+    group:
+    - regidence
+  nusscraft:
+    group:
+    - regidence
+  1koon:
+    group:
+    - regidence
+  NoRyang:
+    group:
+    - regidence
+  yong:
+    group:
+    - regidence
+  Puppy:
+    group:
+    - SCUntrusted
+    - Clanvadv
+    - regidence
+  Otter8:
+    group:
+    - regidence
+  CoyS:
+    group:
+    - regidence
+  megga1004:
+    group:
+    - regidence
+  YsYs:
+    group:
+    - regidence
+  khb0067:
+    group:
+    - regidence
+  dlscjf4402:
+    group:
+    - regidence
+  Angg:
+    group:
+    - regidence
+  Libena:
+    group:
+    - regidence
+  btone:
+    group:
+    - regidence
+  S_Rosenfeld:
+    group:
+    - regidence
+  temporaryerror:
+    group:
+    - regidence
+  gusdud:
+    group:
+    - regidence
+  Kuline:
+    group:
+    - regidence
+  WoodKiller:
+    group:
+    - regidence
+  comic_:
+    group:
+    - regidence
+  axl4600:
+    group:
+    - regidence
+  DKO:
+    group:
+    - regidence
+  DDong:
+    group:
+    - regidence
+  ToRaeng2:
+    group:
+    - regidence
+  minarigun:
+    group:
+    - regidence
+  BackSin2:
+    group:
+    - regidence
+  Elancia:
+    group:
+    - regidence
+    prefix: 퀘스트중인
+  VacCine2:
+    group:
+    - regidence
+  Tico_:
+    group:
+    - regidence
+  yyusu:
+    group:
+    - regidence
+  kramila:
+    group:
+    - regidence
+  taruvica:
+    group:
+    - regidence
+  wjdals3200:
+    group:
+    - regidence
+  smook_:
+    group:
+    - regidence
+  wtfman:
+    group:
+    - regidence
+  wlgur8086:
+    group:
+    - regidence
+  acorn2012:
+    group:
+    - regidence
+  Raven:
+    group:
+    - regidence
+  Vorache:
+    group:
+    - regidence
+  lRabbitl:
+    group:
+    - regidence
+  Suzanboil:
+    group:
+    - regidence
+  MisTeeq:
+    group:
+    - regidence
+  Great_Sm:
+    group:
+    - regidence
+  whatdonald1:
+    group:
+    - regidence
+  ravenwolf:
+    group:
+    - regidence
+  VocalMiKi:
+    group:
+    - regidence
+  Bok:
+    group:
+    - regidence
+  toby___:
+    group:
+    - regidence
+  sepam:
+    group:
+    - regidence
+  ShinRamyun:
+    group:
+    - regidence
+  llMIKUll:
+    group:
+    - regidence
+  Prodigia_s1:
+    group:
+    - regidence
+  lsh970813:
+    group:
+    - regidence
+  Polyphenol:
+    group:
+    - regidence
+  Ryumis:
+    group:
+    - regidence
+  keg015:
+    group:
+    - regidence
+  ymiraz:
+    group:
+    - regidence
+  u1kyu:
+    group:
+    - regidence
+  human:
+    group:
+    - regidence
+  Glam_:
+    group:
+    - regidence
+  akkk:
+    group:
+    - regidence
+  jet999:
+    group:
+    - regidence
+  dochiman:
+    group:
+    - regidence
+  BlueDragon:
+    group:
+    - regidence
+  SSeJin:
+    group:
+    - regidence
+  JungHyeon:
+    group:
+    - regidence
+  park66665:
+    group:
+    - regidence
+  Youhwa:
+    group:
+    - regidence
+  lhb819:
+    group:
+    - regidence
+  Reeeee:
+    group:
+    - regidence
+  ku0711:
+    group:
+    - regidence
+  Mits:
+    group:
+    - regidence
+  rb5594:
+    group:
+    - regidence
+  Optimistically:
+    group:
+    - regidence
+  ocrohw06:
+    group:
+    - regidence
+  flourscent:
+    group:
+    - regidence
+  simpson:
+    group:
+    - regidence
+  zzil2011:
+    group:
+    - regidence
+  hyasa:
+    group:
+    - regidence
+  dinoblue911:
+    group:
+    - regidence
+  Cures:
+    group:
+    - regidence
+  Nuts:
+    group:
+    - regidence
+  CEoCLUBSniper:
+    group:
+    - regidence
+  Ji30g:
+    group:
+    - regidence
+  dongsig:
+    group:
+    - regidence
+  YNSO:
+    group:
+    - regidence
+  quasis:
+    group:
+    - regidence
+  xerox:
+    group:
+    - regidence
+  kimpaton:
+    group:
+    - regidence
+  Krisia:
+    group:
+    - regidence
+  gukdori1:
+    group:
+    - regidence
+  RelRer_:
+    group:
+    - regidence
+  JeGalDaeJung:
+    group:
+    - regidence
+  rmgoo123:
+    group:
+    - regidence
+  parkmarry90:
+    group:
+    - regidence
+  jera1234:
+    group:
+    - regidence
+  rhksdntntkd:
+    group:
+    - regidence
+  Rio:
+    group:
+    - regidence
+  YangGaeng:
+    group:
+    - regidence
+  MrHolt:
+    group:
+    - regidence
+  dragon:
+    group:
+    - regidence
+  wjsskadud159:
+    group:
+    - regidence
+  GScree:
+    group:
+    - regidence
+  Episer:
+    group:
+    - regidence
+  jae112:
+    group:
+    - regidence
+  Kim:
+    group:
+    - regidence
+  pumpkin:
+    group:
+    - regidence
+  Applez:
+    group:
+    - regidence
+  whal:
+    group:
+    - regidence
+  yaong:
+    group:
+    - regidence
+  Siroman:
+    group:
+    - regidence
+  PaDo:
+    group:
+    - regidence
+  KR_Kuza:
+    group:
+    - regidence
+  Foxyia:
+    group:
+    - regidence
+  apfjd9298:
+    group:
+    - regidence
+  Petunia_:
+    group:
+    - regidence
+  rlaxorkd35:
+    group:
+    - regidence
+  ingan9818:
+    group:
+    - regidence
+  roalvjajrj98:
+    group:
+    - regidence
+  Feraris:
+    group:
+    - regidence
+  Mr_X:
+    group:
+    - regidence
+  sunday:
+    group:
+    - regidence
+  Ohsol:
+    group:
+    - regidence
+  kim_h:
+    group:
+    - regidence
+  ipo2244:
+    group:
+    - regidence
+  uhug:
+    group:
+    - regidence
+  nelleeee:
+    group:
+    - regidence
+  kangkang:
+    group:
+    - regidence
+  Shin:
+    group:
+    - regidence
+  HellBenter:
+    group:
+    - regidence
+  HMetyo:
+    group:
+    - regidence
+  HC_Maker:
+    group:
+    - regidence
+  tjdgh2610:
+    group:
+    - regidence
+  tjdgh2601:
+    group:
+    - regidence
+  sense3003:
+    group:
+    - regidence
+  sang52011:
+    group:
+    - regidence
+  Namss:
+    group:
+    - regidence
+  som2som:
+    group:
+    - regidence
+  sym1337:
+    group:
+    - regidence
+  gonz100:
+    group:
+    - regidence
+  crossas1:
+    group:
+    - regidence
+  Gyeonggon:
+    group:
+    - regidence
+  superjwc:
+    group:
+    - regidence
+  Panjyeo:
+    group:
+    - regidence
+  RockZombie:
+    group:
+    - regidence
+  rimited:
+    group:
+    - regidence
+  Su1chan:
+    group:
+    - regidence
+  hcm01316:
+    group:
+    - regidence
+  JJongEi:
+    group:
+    - regidence
+  Dangoya:
+    group:
+    - regidence
+  sungnyung:
+    group:
+    - regidence
+  nuru0228:
+    group:
+    - regidence
+  PirNote:
+    group:
+    - regidence
+  SoundGrave:
+    group:
+    - regidence
+  namhaelsy:
+    group:
+    - regidence
+  x10041040:
+    group:
+    - regidence
+  wngksdlc:
+    group:
+    - regidence
+  Lelrian:
+    group:
+    - regidence
+  jey_123:
+    group:
+    - regidence
+  kyw3742:
+    group:
+    - regidence
+  wogns4279:
+    group:
+    - regidence
+  kmskqq:
+    group:
+    - regidence
+  mlnd_:
+    group:
+    - regidence
+  rym_:
+    group:
+    - regidence
+  zsed126:
+    group:
+    - regidence
+  sky0618:
+    group:
+    - regidence
+  ByunDae:
+    group:
+    - regidence
+  LiberitePray:
+    group:
+    - regidence
+  Do_HE:
+    group:
+    - regidence
+  Nyctalopia:
+    group:
+    - regidence
+  csp1021:
+    group:
+    - regidence
+  DongSn:
+    group:
+    - regidence
+  LoveU97:
+    group:
+    - regidence
+  qewad3:
+    group:
+    - regidence
+  iluku:
+    group:
+    - regidence
+  mico_:
+    group:
+    - regidence
+  _Lifthrasir:
+    group:
+    - regidence
+  Star_Hong:
+    group:
+    - regidence
+  smart_idiot21:
+    group:
+    - regidence
+  colazel:
+    group:
+    - regidence
+  YWNhaku:
+    group:
+    - regidence
+  yois21:
+    group:
+    - regidence
+  ttw0517:
+    group:
+    - regidence
+  JJING:
+    group:
+    - regidence
+  SungJu:
+    group:
+    - regidence
+  TECH:
+    group:
+    - regidence
+  smrt5678:
+    group:
+    - regidence
+  SuperCharlie:
+    group:
+    - regidence
+  Qudtlsdk:
+    group:
+    - regidence
+  sunsun1306:
+    group:
+    - regidence
+  Plevii:
+    group:
+    - regidence
+  StuRun:
+    group:
+    - regidence
+  AflaroiD:
+    group:
+    - regidence
+  Milkholic:
+    group:
+    - regidence
+  Gozacreeper:
+    group:
+    - regidence
+  TSKing:
+    group:
+    - regidence
+  Talju:
+    group:
+    - regidence
+  polaris3797:
+    group:
+    - regidence
+  polaris:
+    group:
+    - regidence
+  hs0504:
+    group:
+    - regidence
+  intaek:
+    group:
+    - regidence
+  petit:
+    group:
+    - regidence
+  Hwata:
+    group:
+    - regidence
+  Reinvert:
+    group:
+    - regidence
+  npng:
+    group:
+    - regidence
+  sweatyvine:
+    group:
+    - regidence
+  Seaven:
+    group:
+    - regidence
+  UaTanTanPan:
+    group:
+    - regidence
+  GozaZobie:
+    group:
+    - regidence
+  sajun:
+    group:
+    - regidence
+  owlman:
+    group:
+    - regidence
+  SNHD:
+    group:
+    - regidence
+  sywhite01:
+    group:
+    - regidence
+  meowwolf:
+    group:
+    - regidence
+  saryhong:
+    group:
+    - regidence
+  sosizi:
+    group:
+    - regidence
+    prefix: 퀘스트중인
+  Flu_To:
+    group:
+    - regidence
+  fochiy:
+    group:
+    - regidence
+  kjwgoo:
+    group:
+    - regidence
+  TwoDallar:
+    group:
+    - regidence
+  meowbot:
+    group:
+    - regidence
+  Poby_:
+    group:
+    - regidence
+  Rocka:
+    group:
+    - regidence
+  Arbiter:
+    group:
+    - regidence
+  sunbath:
+    group:
+    - regidence
+  Tory:
+    group:
+    - regidence
+  Sulli:
+    group:
+    - regidence
+  IDjy:
+    group:
+    - regidence
+  Tayo_:
+    group:
+    - regidence
+  ka2stgo:
+    group:
+    - regidence
+  hwazangsil:
+    group:
+    - regidence
+  Miyuk:
+    group:
+    - regidence
+  Paramour:
+    group:
+    - regidence
+  morix07:
+    group:
+    - regidence
+  Gadiun:
+    group:
+    - regidence
+  Skagoo:
+    group:
+    - regidence
+  SungJu1:
+    group:
+    - regidence
+  mes5432:
+    group:
+    - regidence
+  hb996:
+    group:
+    - regidence
+  wnans001:
+    group:
+    - regidence
+  QuAviT:
+    group:
+    - regidence
+  shinyblood:
+    group:
+    - regidence
+  hogu:
+    group:
+    - regidence
+  chog5469:
+    group:
+    - regidence
+  Gangy_:
+    group:
+    - regidence
+  pae615:
+    group:
+    - regidence
+  mineforce:
+    group:
+    - regidence
+  Dinah_Might:
+    group:
+    - regidence
+  TkSung:
+    group:
+    - regidence
+  molkang:
+    group:
+    - regidence
+  aoony:
+    group:
+    - regidence
+  Neki:
+    group:
+    - regidence
+  ook:
+    group:
+    - regidence
+  KYJ:
+    group:
+    - regidence
+  totoda:
+    group:
+    - regidence
+  sweden131:
+    group:
+    - regidence
+  HoHoLangJessM:
+    group:
+    - regidence
+  rjdrjs4444:
+    group:
+    - regidence
+  krzzs:
+    group:
+    - regidence
+  Youngbum:
+    group:
+    - regidence
+  hongchuN01:
+    group:
+    - regidence
+  Mignon:
+    group:
+    - regidence
+  ckhrn:
+    group:
+    - regidence
+  Journey:
+    group:
+    - regidence
+  _molkang:
+    group:
+    - regidence
+  Kaga:
+    group:
+    - regidence
+  dogbubble:
+    group:
+    - regidence
+  cxvb:
+    group:
+    - regidence
+  mojil:
+    group:
+    - regidence
+  Ppilot_:
+    group:
+    - regidence
+  Dogil:
+    group:
+    - regidence
+  wjs159:
+    group:
+    - regidence
+  yoo07256:
+    group:
+    - regidence
+  majujak:
+    group:
+    - regidence
+  Newbie_Test:
+    group:
+    - regidence
+  Oh_YE:
+    group:
+    - regidence
+  redbull:
+    group:
+    - regidence
+  cloverpig:
+    group:
+    - regidence
+  fendersoon:
+    group:
+    - regidence
+  ProMas:
+    group:
+    - regidence
+  chicken:
+    group:
+    - regidence
+  toyota123:
+    group:
+    - regidence
+  Fire:
+    group:
+    - regidence
+  sumiN:
+    group:
+    - regidence
+  ITM09:
+    group:
+    - regidence
+  Nake:
+    group:
+    - regidence
+  ridog17:
+    group:
+    - regidence
+  ddongza88:
+    group:
+    - regidence
+  NeonCJ_:
+    group:
+    - regidence
+  skyug:
+    group:
+    - regidence
+  min:
+    group:
+    - regidence
+  chung:
+    group:
+    - regidence
+  kain:
+    group:
+    - regidence
+  5me:
+    group:
+    - regidence
+  tee_mo:
+    group:
+    - regidence
+  teams:
+    group:
+    - regidence
+  nellch:
+    group:
+    - regidence
+  Yi_m:
+    group:
+    - regidence
+  mashiro_:
+    group:
+    - regidence
+  vAdvanteage:
+    permissions:
+    - commandbook.item
+  vAdvanteagev:
+    permissions:
+    - commandbook.item
+  Binpol:
+    group:
+    - regidence
+  KE_DI_TI:
+    group:
+    - regidence
+  Chaos:
+    group:
+    - regidence
+  Impossible:
+    group:
+    - regidence
+  bshs:
+    group:
+    - regidence
+  jjyeo__:
+    group:
+    - regidence
+  lemones:
+    group:
+    - regidence
+  MuAng23:
+    group:
+    - regidence
+  Tigerll:
+    group:
+    - regidence
+  khj5032:
+    group:
+    - regidence
+  CaCa_O:
+    group:
+    - regidence
+  TheCraftBoxEnt:
+    group:
+    - regidence
+  liwang:
+    group:
+    - regidence
+  Roki159:
+    group:
+    - regidence
+  ujin034:
+    group:
+    - regidence
+  dkwldals:
+    group:
+    - regidence
+  smindi:
+    group:
+    - regidence
+  mspark0602:
+    group:
+    - regidence
+  Mong:
+    group:
+    - regidence
+  Roperico:
+    group:
+    - regidence
+  BoredSun:
+    group:
+    - regidence
+  hongjun:
+    group:
+    - regidence
+  MrStake:
+    group:
+    - regidence
+  syako:
+    group:
+    - regidence
+  Bucter:
+    group:
+    - regidence
+  Rockne_:
+    group:
+    - regidence
+  Viking:
+    group:
+    - regidence
+  mandu:
+    group:
+    - regidence
+  Nigs:
+    group:
+    - regidence
+  rochision:
+    group:
+    - regidence
+  int60:
+    group:
+    - regidence
+  Neon:
+    group:
+    - regidence
+  Peeor:
+    group:
+    - regidence
+  HunterKiller:
+    group:
+    - regidence
+  Pirlo:
+    group:
+    - regidence
+  min256256:
+    group:
+    - regidence
+  Tskuyomi:
+    group:
+    - regidence
+  HellGate:
+    group:
+    - regidence
+  realman:
+    group:
+    - regidence
+  fly:
+    group:
+    - regidence
+  JJindol_:
+    group:
+    - regidence
+  Blacksoybean:
+    group:
+    - regidence
+  blackcat:
+    group:
+    - regidence
+  Le_et:
+    group:
+    - regidence
+  SinLime:
+    group:
+    - regidence
+  Nessun:
+    group:
+    - regidence
+  Dwaengji:
+    group:
+    - regidence
+  Paperoni:
+    group:
+    - regidence
+  faping:
+    group:
+    - regidence
+  Hans:
+    group:
+    - regidence
+  Yoostin:
+    group:
+    - regidence
+  humileety:
+    group:
+    - regidence
+  pdh1120:
+    group:
+    - regidence
+  Maire:
+    group:
+    - regidence
+  ReMango:
+    group:
+    - regidence
+  crys79:
+    group:
+    - regidence
+  NeoSine_:
+    group:
+    - regidence
+  wjdrldnr134:
+    group:
+    - regidence
+  mc_zizon_hiroog:
+    group:
+    - regidence
+  Black_raven:
+    group:
+    - regidence
+  GGiUU:
+    group:
+    - regidence
+  cooring:
+    group:
+    - regidence
+  korno00:
+    group:
+    - regidence
+  pandagome:
+    group:
+    - regidence
+  protonate:
+    group:
+    - regidence
+  abdi1221:
+    group:
+    - regidence
+  GOGUMA110:
+    group:
+    - regidence
+  Namiyu:
+    group:
+    - regidence
+  normal:
+    group:
+    - regidence
+  SateLite:
+    group:
+    - regidence
+  Fedora:
+    group:
+    - regidence
+  jebikim:
+    group:
+    - regidence
+  rootsystem:
+    group:
+    - regidence
+  Getback:
+    group:
+    - regidence
+  wonu:
+    group:
+    - regidence
+  BlackAir_:
+    group:
+    - regidence
+  AnarchyStocking_:
+    group:
+    - regidence
+  Alice:
+    group:
+    - regidence
+  nicegame:
+    group:
+    - regidence
+  tldb45:
+    group:
+    - regidence
+  yoojin:
+    group:
+    - regidence
+  lala3737:
+    group:
+    - regidence
+  yania:
+    group:
+    - regidence
+  BSM0910:
+    group:
+    - regidence
+  samsamida:
+    group:
+    - regidence
+  MurBom:
+    group:
+    - regidence
+  bonos:
+    group:
+    - regidence
+  IncheonFreedom:
+    group:
+    - regidence
+  Kyu9903:
+    group:
+    - regidence
+  qwall2002:
+    group:
+    - regidence
+  RoRangY:
+    group:
+    - regidence
+  rpm:
+    group:
+    - regidence
+  teheranio:
+    group:
+    - regidence
+  D_Fron:
+    group:
+    - regidence
+  Mad_Scientist:
+    group:
+    - regidence
+  angelgtrose:
+    group:
+    - regidence
+  Scrolls:
+    group:
+    - regidence
+  djvisual:
+    group:
+    - regidence
+  CappuCcino:
+    group:
+    - regidence
+  rouxyoon:
+    group:
+    - regidence
+  Bizarreboy:
+    group:
+    - regidence
+  simano:
+    group:
+    - regidence
+  Wilborwm:
+    group:
+    - regidence
+  sole0909:
+    group:
+    - regidence
+  Uin_:
+    group:
+    - regidence
+  ykjk1401:
+    group:
+    - regidence
+  ramy:
+    group:
+    - regidence
+  icetuna:
+    group:
+    - regidence
+  hcm1994:
+    group:
+    - regidence
+  Physicpop:
+    group:
+    - regidence
+  miner:
+    group:
+    - regidence
+  MiAoO:
+    group:
+    - regidence
+  farmer:
+    group:
+    - regidence
+  guest_f79:
+    group:
+    - regidence
+  BackGom:
+    group:
+    - regidence
+  cinema1357:
+    group:
+    - regidence
+  ChickenDever:
+    group:
+    - regidence
+  nermate:
+    group:
+    - regidence
+  named:
+    group:
+    - regidence
+  poi0322:
+    group:
+    - regidence
+  kyobongseo:
+    group:
+    - regidence
+  dousei:
+    group:
+    - regidence
+  MaNengMoo:
+    group:
+    - regidence
+  Iyagi:
+    group:
+    - regidence
+  mainchna:
+    group:
+    - regidence
+  salykr:
+    group:
+    - regidence
+  shaydul:
+    group:
+    - regidence
+  pipi_A:
+    group:
+    - regidence
+  kalullus:
+    group:
+    - regidence
+  rhathd:
+    group:
+    - regidence
+  yhj4735:
+    group:
+    - regidence
+  ehan_ch:
+    group:
+    - regidence
+  villto:
+    group:
+    - regidence
+  misuzu:
+    group:
+    - regidence
+  sungmins:
+    group:
+    - regidence
+  Human_0000:
+    group:
+    - regidence
+  yjmlhnuj:
+    group:
+    - regidence
+  Damnicholas_:
+    group:
+    - regidence
+  kanmaro:
+    group:
+    - regidence
+  wmfxld12:
+    group:
+    - regidence
+  crazyfish:
+    group:
+    - regidence
+  XBOX:
+    group:
+    - regidence
+  minoo1235:
+    group:
+    - regidence
+  whgustjr222:
+    group:
+    - regidence
+  puppy61:
+    group:
+    - regidence
+  BLUENOID:
+    group:
+    - regidence
+  KimMozak:
+    group:
+    - regidence
+  Hyeon123:
+    group:
+    - regidence
+  qqe345:
+    group:
+    - regidence
+  RoundC00KIE:
+    group:
+    - regidence
+  zzzz:
+    group:
+    - regidence
+  Pozet:
+    group:
+    - regidence
+  Krillin:
+    group:
+    - regidence
+  elangaco0408:
+    group:
+    - regidence
+  Bodol:
+    group:
+    - regidence
+  sho230:
+    group:
+    - regidence
+  Johnson_is_dream:
+    group:
+    - regidence
+  tldn0631:
+    group:
+    - regidence
+  Teiler_:
+    group:
+    - regidence
+  kimbyul_:
+    group:
+    - regidence
+  MONO:
+    group:
+    - regidence
+  Goodgaring:
+    group:
+    - regidence
+  Eveun:
+    group:
+    - regidence
+  piungshin:
+    group:
+    - regidence
+  Mc_AppleGate:
+    group:
+    - regidence
+  bitv:
+    group:
+    - regidence
+  qlfflwh:
+    group:
+    - regidence
+  sin37743774:
+    group:
+    - regidence
+  hhm1573:
+    group:
+    - regidence
+  uniball:
+    group:
+    - regidence
+  Dalpengun:
+    group:
+    - regidence
+  width8808:
+    group:
+    - regidence
+  ods07029:
+    group:
+    - regidence
+  MMjan:
+    group:
+    - regidence
+  Cream_2:
+    group:
+    - regidence
+  Lisden:
+    group:
+    - regidence
+  hjs6985:
+    group:
+    - regidence
+  Arishot:
+    group:
+    - regidence
+  ASstick:
+    group:
+    - regidence
+  OrangeMag_:
+    group:
+    - regidence
+  KCanon:
+    group:
+    - regidence
+  yongsk0066:
+    group:
+    - regidence
+  dong5470:
+    group:
+    - regidence
+  Kong_dol:
+    group:
+    - regidence
+  ros518:
+    group:
+    - regidence
+  S2Hunter:
+    group:
+    - regidence
+  Fresh_poop:
+    group:
+    - regidence
+  clipper:
+    group:
+    - regidence
+  ckwlsgh77:
+    group:
+    - regidence
+  Kudo:
+    group:
+    - regidence
+  Mine_Rush:
+    group:
+    - regidence
+  singingstar:
+    group:
+    - regidence
+  oOm:
+    group:
+    - regidence
+  Caru301:
+    group:
+    - regidence
+  ghssh:
+    group:
+    - regidence
+  Mixergi:
+    group:
+    - regidence
+  backsiture:
+    group:
+    - regidence
+  IngYeo_OwO:
+    group:
+    - regidence
+  Bungs:
+    group:
+    - regidence
+  skwls123:
+    group:
+    - regidence
+  Don_dok:
+    group:
+    - regidence
+  MeltyCaramel:
+    group:
+    - regidence
+  dltmdgus8857:
+    group:
+    - regidence
+  Jubyoung:
+    group:
+    - regidence
+  hdyeon:
+    group:
+    - regidence
+  GGoMa69:
+    group:
+    - regidence
+  sengkong:
+    group:
+    - regidence
+  dongbug:
+    group:
+    - regidence
+  Legend_Best:
+    group:
+    - regidence
+  mother01:
+    group:
+    - regidence
+  got:
+    group:
+    - regidence
+  JunTae:
+    group:
+    - regidence
+  SAMA_chip:
+    group:
+    - regidence
+  Yale_:
+    group:
+    - regidence
+  maguroo:
+    group:
+    - regidence
+  bmyu:
+    group:
+    - regidence
+  garbege2:
+    group:
+    - regidence
+  PingGot:
+    group:
+    - regidence
+  hotpinky12:
+    group:
+    - regidence
+  yangnom:
+    group:
+    - regidence
+  hooneeimo:
+    group:
+    - regidence
+  Like_Pixel:
+    group:
+    - regidence
+  Puppet:
+    group:
+    - regidence
+  uuo:
+    group:
+    - regidence
+  Manbok:
+    group:
+    - regidence
+  SassyClaw:
+    group:
+    - regidence
+  SkyTree:
+    group:
+    - regidence
+  kimblS:
+    group:
+    - regidence
+  grudge:
+    group:
+    - regidence
+  pk4783:
+    group:
+    - regidence
+  Smaster:
+    group:
+    - regidence
+  Doris_Korea:
+    group:
+    - regidence
+  choring:
+    group:
+    - regidence
+  altmrhffoa:
+    group:
+    - regidence
+  Dongtae:
+    group:
+    - regidence
+  neid_1717177:
+    group:
+    - regidence
+  answl:
+    group:
+    - regidence
+  Y_u_i:
+    group:
+    - regidence
+  nickname:
+    group:
+    - regidence
+  remihhh7:
+    group:
+    - regidence
+  ICubE__:
+    group:
+    - regidence
+  jangjinwook:
+    group:
+    - regidence
+  hwijun:
+    group:
+    - regidence
+  gmmojang:
+    group:
+    - regidence
+  Rotori:
+    group:
+    - regidence
+  Dkdlah:
+    group:
+    - regidence
+  ROTARI_:
+    group:
+    - regidence
+  hageung:
+    group:
+    - regidence
+  A_Auster:
+    group:
+    - regidence
+  Grostesk:
+    group:
+    - regidence
+  dnwo7778:
+    group:
+    - regidence
+  fantasy:
+    group:
+    - regidence
+  pabi0117:
+    group:
+    - regidence
+  Yu_3e:
+    group:
+    - regidence
+  c315:
+    group:
+    - regidence
+  adad:
+    group:
+    - regidence
+  Draknir:
+    group:
+    - regidence
+  siax1a2s:
+    group:
+    - regidence
+  wjdtjrals79:
+    group:
+    - regidence
+  K_Simpson:
+    group:
+    - regidence
+  Reminol:
+    group:
+    - regidence
+  redbin8:
+    group:
+    - regidence
+  P_Pant:
+    group:
+    - regidence
+  rotax3:
+    group:
+    - regidence
+  rotax5:
+    group:
+    - regidence
+  MTini:
+    group:
+    - regidence
+  sebalbale:
+    group:
+    - regidence
+  sebalbal22:
+    group:
+    - regidence
+  wonsik88:
+    group:
+    - regidence
+  Cmkmonster:
+    group:
+    - regidence
+  PowerMan_kor:
+    group:
+    - regidence
+  DDil_:
+    group:
+    - regidence
+  jingko30:
+    group:
+    - regidence
+  sbira:
+    group:
+    - regidence
+  Zombie:
+    group:
+    - regidence
+  RowenAi:
+    group:
+    - regidence
+  Dku2:
+    group:
+    - regidence
+  yo_haha:
+    group:
+    - regidence
+  Sialogel:
+    group:
+    - regidence
+  Kira:
+    group:
+    - regidence
+  Sonico_:
+    group:
+    - regidence
+  Fangk:
+    group:
+    - regidence
+  Artwaltz:
+    group:
+    - regidence
+  MiNAMyo:
+    group:
+    - regidence
+  bobobo:
+    group:
+    - regidence
+  Ladelto:
+    group:
+    - regidence
+  Tena:
+    group:
+    - regidence
+  Yenycall_:
+    group:
+    - regidence
+  ParkGeunHye:
+    group:
+    - regidence
+  ByoongSin:
+    group:
+    - regidence
+  wkdduddnd211:
+    group:
+    - regidence
+  foo:
+    group:
+    - regidence
+  bobobo93:
+    group:
+    - regidence
+  yello07:
+    group:
+    - regidence
+  Kira_Bot:
+    group:
+    - regidence
+  frogkingdom:
+    group:
+    - regidence
+  Ootwo:
+    group:
+    - regidence
+  CITY:
+    group:
+    - regidence
+  NOINIS:
+    group:
+    - regidence
+  guekue:
+    group:
+    - regidence
+  Lrz:
+    group:
+    - regidence
+  Geon:
+    group:
+    - regidence
+  egger:
+    group:
+    - regidence
+  kdh3305:
+    group:
+    - regidence
+  Notch:
+    group:
+    - regidence
+  wnehdgnl1:
+    group:
+    - regidence

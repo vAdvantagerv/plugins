@@ -1,0 +1,7 @@
+# This is the configuration file for DynTrack.
+db:
+  use: false
+  url: url
+  user: minecraft
+  password: q1w2e3r4
+  prefix: dyntrack_

@@ -1,0 +1,5 @@
+enable: false
+itemRestrictions: false
+informPlayers: false
+whitelist: false
+messages: {}

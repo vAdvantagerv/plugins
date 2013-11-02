@@ -1,0 +1,340 @@
+nulang:
+  help:
+    msg:
+      blacklist:
+      - Manages block break/place blacklist entries
+      - '-------------------------------------------'
+      - 'shorthand command: !bl'
+      - '-------------------------------------------'
+      - /pa [arenaname] blacklist clear
+      - /pa [arenaname] blacklist [type] clear
+      - '    - clear the blacklist [of a special type]'
+      - /pa [arenaname] blacklist [type] [sub] [blockID]
+      - '-------------------------------------------'
+      - 'Valid types: break | place | use'
+      - 'Valid subs: add | remove | show'
+      check:
+      - Validate an arena configuration
+      - '-------------------------------------------'
+      - 'shorthand command: !ch'
+      - '-------------------------------------------'
+      - /pa [arenaname] check
+      class:
+      - Manage arena classes
+      - '-------------------------------------------'
+      - 'shorthand command: !cl'
+      - '-------------------------------------------'
+      - /pa [arenaname] class load [classname]
+      - /pa [arenaname] class save [classname]
+      - /pa [arenaname] class remove [classname]
+      create:
+      - Create an arena
+      - '-------------------------------------------'
+      - 'shorthand command: !c'
+      - '-------------------------------------------'
+      - /pa create [arenaname] {legacytype}
+      - '-------------------------------------------'
+      - 'Valid legacy types: teams, teamdm, dm, free, ctf, ctp, spleef'
+      debug:
+      - Debug PVP Arena
+      - '-------------------------------------------'
+      - 'shorthand command: !d'
+      - '-------------------------------------------'
+      - /pa debug [values]
+      - '-------------------------------------------'
+      - Valid values are class numbers (separated by comma) and &enone&r
+      disable:
+      - Disable an arena
+      - '-------------------------------------------'
+      - 'shorthand command: !dis'
+      - '-------------------------------------------'
+      - /pa [arenaname] disable
+      edit:
+      - Toggle edit mode of an arena
+      - '-------------------------------------------'
+      - 'shorthand command: !e'
+      - '-------------------------------------------'
+      - /pa [arenaname] edit
+      enable:
+      - Enable an arena
+      - '-------------------------------------------'
+      - 'shorthand command: !en'
+      - '-------------------------------------------'
+      - /pa [arenaname] enable
+      gamemode:
+      - Set the general game mode of an arena. Teams or Free for all
+      - '-------------------------------------------'
+      - 'shorthand command: !gm'
+      - '-------------------------------------------'
+      - /pa [arenaname] gamemode [free|teams]
+      goal:
+      - Manage arena goals
+      - '-------------------------------------------'
+      - 'shorthand command: !g'
+      - '-------------------------------------------'
+      - /pa [arenaname] goal [goalname] {value}
+      - '-------------------------------------------'
+      - Entering an invalid goal will list available goals
+      - No value will toggle and display the result
+      - 'Valid values: yes, on, 1, true, no, off, 0, false'
+      import:
+      - Import v0.8 arenas
+      - '-------------------------------------------'
+      - 'shorthand command: !imp'
+      - '-------------------------------------------'
+      - /pa import | import all arenas
+      - /pa import [arenaname] | import an arena
+      install:
+      - Install modules
+      - '-------------------------------------------'
+      - 'shorthand command: !i'
+      - '-------------------------------------------'
+      - /pa install (modules | goals)
+      - /pa install [modulename]
+      - '-------------------------------------------'
+      - modules / arenas will list available files
+      protection:
+      - Manage arena region protections
+      - '-------------------------------------------'
+      - 'shorthand command: !p'
+      - '-------------------------------------------'
+      - /pa [arenaname] protection [regionname] [protection] {value}
+      - '-------------------------------------------'
+      - Entering an invalid protection will list available ones
+      - No value will toggle and display the result
+      - 'Valid values: yes, on, 1, true, no, off, 0, false'
+      region:
+      - Manage arena regions
+      - '-------------------------------------------'
+      - 'shorthand command: !rg'
+      - '-------------------------------------------'
+      - /pa [arenaname] region
+      - '    - start selecting a region'
+      - /pa [arenaname] region [regionname] {regiontype}
+      - '    - save region, default regiontype is a cuboid'
+      - '    - valid regions: &e/pa version regions'
+      - /pa [arenaname] region [regionname] border
+      - '    - display the region border for a short time'
+      - /pa [arenaname] region remove [regionname]
+      - '    - remove a region'
+      - '-------------------------------------------'
+      - /pa [arenaname] region [regionname] [key] [value]
+      - '    - Enhanced region editing, valid keys include:'
+      - '    - radius, height, position'
+      regionflag:
+      - Manage arena region flags
+      - '-------------------------------------------'
+      - 'shorthand command: !rf'
+      - '-------------------------------------------'
+      - /pa [arenaname] regionflag [regionname] [flagtype] {value}
+      - '-------------------------------------------'
+      - Entering an invalid flagtype will list available ones
+      - No value will toggle and display the result
+      - 'Valid values: yes, on, 1, true, no, off, 0, false'
+      regions:
+      - Debug arena regions
+      - '-------------------------------------------'
+      - 'shorthand command: !rs'
+      - '-------------------------------------------'
+      - /pa [arenaname] regions {regionname}
+      - '-------------------------------------------'
+      - Show all defined regions / detailed information about a region
+      regiontype:
+      - Manage region types
+      - '-------------------------------------------'
+      - 'shorthand command: !rt'
+      - '-------------------------------------------'
+      - /pa [arenaname] regiontype [regionname] [type]
+      - '-------------------------------------------'
+      - 'Valid region types '
+      reload:
+      - Reload an arena
+      - '-------------------------------------------'
+      - 'shorthand command: !rl'
+      - '-------------------------------------------'
+      - /pa [arenaname] reload
+      remove:
+      - Remove an arena
+      - '-------------------------------------------'
+      - 'shorthand command: !rem'
+      - '-------------------------------------------'
+      - /pa [arenaname] remove
+      round:
+      - Manage arena rounds
+      - '-------------------------------------------'
+      - 'shorthand command: !rd'
+      - '-------------------------------------------'
+      - /pa [arenaname] round
+      - '    - list rounds'
+      - /pa [arenaname] round [number]
+      - '    - list round goals'
+      - /pa [arenaname] round [number] [goal]
+      - '    - toggle round goal'
+      set:
+      - Set an arena config setting
+      - '-------------------------------------------'
+      - 'shorthand command: !s'
+      - '-------------------------------------------'
+      - /pa [arenaname] set [node] [value]
+      - '-------------------------------------------'
+      - Values will be explained if necessary
+      setowner:
+      - Set an arena owner
+      - '-------------------------------------------'
+      - 'shorthand command: !so'
+      - '-------------------------------------------'
+      - /pa [arenaname] setowner [playername]
+      spawn:
+      - Manage arena spawns
+      - '-------------------------------------------'
+      - 'shorthand command: !sp'
+      - '-------------------------------------------'
+      - /pa [arenaname] spawn [spawnname]
+      - /pa [arenaname] spawn [spawnname] remove
+      - '-------------------------------------------'
+      - Spawn names vary based on installed/active modules!
+      start:
+      - Force start an arena
+      - '-------------------------------------------'
+      - 'shorthand command: !go'
+      - '-------------------------------------------'
+      - /pa [arenaname] start
+      stop:
+      - Force stop an arena
+      - '-------------------------------------------'
+      - 'shorthand command: !st'
+      - '-------------------------------------------'
+      - /pa [arenaname] stop
+      togglemod:
+      - Toggle an arena module
+      - '-------------------------------------------'
+      - 'shorthand command: !tm'
+      - '-------------------------------------------'
+      - /pa [arenaname] togglemod [name]
+      teams:
+      - Manage arena teams
+      - '-------------------------------------------'
+      - 'shorthand command: !ts'
+      - '-------------------------------------------'
+      - /pa [arenaname] teams - list teams
+      - /pa [arenaname] teams add [name] [value]
+      - /pa [arenaname] teams set [name] [value]
+      - /pa [arenaname] teams remove [name]
+      teleport:
+      - Teleport to an arena spawn
+      - '-------------------------------------------'
+      - /pa [arenaname] teleport [spawnname]
+      - 'shorthand command: !t'
+      uninstall:
+      - Uninstall a PVP Arena module
+      - '-------------------------------------------'
+      - 'shorthand command: !ui'
+      - '-------------------------------------------'
+      - /pa uninstall [modulename]
+      update:
+      - Update a PVP Arena module
+      - '-------------------------------------------'
+      - 'shorthand command: !u'
+      - '-------------------------------------------'
+      - /pa update [modulename]
+      whitelist:
+      - Manages block break/place whitelist entries
+      - '-------------------------------------------'
+      - 'shorthand command: !wl'
+      - '-------------------------------------------'
+      - /pa [arenaname] whitelist clear
+      - /pa [arenaname] whitelist [type] clear
+      - '    - clear the whitelist [of a special type]'
+      - /pa [arenaname] whitelist [type] [sub] [blockID]
+      - '-------------------------------------------'
+      - 'Valid types: break | place | use'
+      - 'Valid subs: add | remove | show'
+      chat:
+      - Set arena team chat mode
+      - '-------------------------------------------'
+      - 'shorthand command: -c'
+      - '-------------------------------------------'
+      - /pa [arenaname] chat {value}
+      - '-------------------------------------------'
+      - Switch between team and global chat
+      - No value will toggle and display the result
+      - 'Valid values: yes, on, 1, true, no, off, 0, false'
+      shutup:
+      - Ignore arena announcements
+      - '-------------------------------------------'
+      - 'shorthand command: -su'
+      - '-------------------------------------------'
+      - /pa [arenaname] shutup {value}
+      - '-------------------------------------------'
+      - Switch ignore mode
+      - No value will toggle and display the result
+      - 'Valid values: yes, on, 1, true, no, off, 0, false'
+      join:
+      - Join an arena
+      - '-------------------------------------------'
+      - 'shorthand command: -j'
+      - '-------------------------------------------'
+      - /pa [arenaname] join {teamname}
+      leave:
+      - Leave the arena
+      - '-------------------------------------------'
+      - 'shorthand command: -l'
+      - '-------------------------------------------'
+      - /pa leave
+      spectate:
+      - Spectate an arena
+      - '-------------------------------------------'
+      - 'shorthand command: -s'
+      - '-------------------------------------------'
+      - /pa [arenaname] spectate
+      arenaclass:
+      - Switch your arena class
+      - '-------------------------------------------'
+      - 'shorthand command: -ac'
+      - '-------------------------------------------'
+      - /pa arenaclass [classname]
+      arenalist:
+      - List available arenas
+      - '-------------------------------------------'
+      - 'shorthand command: -ls'
+      - '-------------------------------------------'
+      - /pa list
+      help:
+      - Receive help
+      - '-------------------------------------------'
+      - 'shorthand command: -h'
+      - '-------------------------------------------'
+      - /pa help [topic/command]
+      info:
+      - Detailed information about an arena
+      - '-------------------------------------------'
+      - 'shorthand command: -i'
+      - '-------------------------------------------'
+      - /pa [arenaname] info
+      list:
+      - List arena players
+      - '-------------------------------------------'
+      - 'shorthand command: -ls'
+      - '-------------------------------------------'
+      - /pa {arenaname} list
+      ready:
+      - Ready up / show ready players
+      - '-------------------------------------------'
+      - 'shorthand command: -r'
+      - '-------------------------------------------'
+      - /pa {arenaname} ready {show}
+      stats:
+      - Show arena/player statistics
+      - '-------------------------------------------'
+      - 'shorthand command: -s'
+      - '-------------------------------------------'
+      - /pa {arenaname} stats [stattype] {amount}
+      - '-------------------------------------------'
+      - An invalid stattype will list all available ones
+      version:
+      - Show detailed version information
+      - '-------------------------------------------'
+      - 'shorthand command: -v'
+      - '-------------------------------------------'
+      - /pa version
+version: v0.9.9.9

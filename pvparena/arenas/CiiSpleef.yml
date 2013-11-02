@@ -1,0 +1,262 @@
+configversion: 1.0.6.198
+chat:
+  colorNick: true
+  defaultTeam: false
+  enabled: true
+  onlyPrivate: false
+cmds:
+  defaultjoin: true
+  whitelist:
+  - ungod
+damage:
+  armor: true
+  spawncamp: 1
+  weapons: true
+general:
+  classspawn: false
+  customReturnsGear: false
+  enabled: true
+  gm: 0
+  leavedeath: false
+  lang: none
+  owner: server
+  quickspawn: true
+  prefix: PVP Arena
+  smartspawn: true
+  time: -1
+  type: free
+  wand: 280
+goal:
+  livesPerPlayer: false
+  endCountDown: 5
+  blockdestroy:
+    blocktype: IRON_BLOCK
+    bdlives: 1
+  dom:
+    spamoffset: 3
+    claimrange: 3
+    dlives: 10
+    onlywhenmore: false
+  flags:
+    flagType: WOOL
+    flives: 3
+    mustBeSafe: true
+    woolFlagHead: true
+    effect: none
+  food:
+    fmaxitems: 50
+    fplayeritems: 10
+    fteamitems: 100
+  infected:
+    iilives: 1
+    inlives: 1
+  liberation:
+    llives: 3
+  playerdm:
+    pdlives: 3
+  playerlives:
+    plives: 3
+  tank:
+    tlives: 1
+  teamdm:
+    tdlives: 10
+  teamlives:
+    tlives: 10
+  time:
+    timedend: 0
+    winner: none
+  pillars:
+    announcetick: true
+    pillives: 10
+    onlyfree: true
+    breakable: true
+    tickpoints: 1
+    tickinterval: 20
+    announceoffset: 3
+    maxclicks: 10
+    maxheight: 5
+    emptyheight: 1
+    teamheight: 2
+    claimall: false
+  addLivesPerPlayer: true
+items:
+  minplayers: 2
+  rewards: none
+  random: true
+  excludeFromDrops: none
+  takeOutOfGame: none
+join:
+  range: 0
+  forceregionjoin: false
+  onlyifhasplayed: false
+block:
+  blacklist: []
+  whitelist: []
+goals:
+- PlayerLives
+- Time
+mods:
+- BattlefieldJoin
+- StandardLounge
+- Announcements
+- StandardSpectate
+- Vault
+- BlockRestore
+msg:
+  lounge: Welcome to the arena lounge! Hit a class sign and then the iron block to flag yourself as ready!
+  playerjoined: '%1% joined the Arena!'
+  playerjoinedteam: '%1% joined team %2%!'
+  starting: Arena is starting! Type &e/pa %1%&r to join!
+  youjoined: You have joined the FreeForAll Arena!
+  youjoinedteam: You have joined team %1%!
+perms:
+  explicitArenaNeeded: false
+  explicitClassNeeded: false
+  fly: false
+  loungeinteract: false
+  joinInBattle: false
+  joinWithScoreboard: true
+  teamkill: true
+  specTalk: true
+player:
+  autoIgniteTNT: false
+  dropsEXP: false
+  dropsInventory: false
+  exhaustion: 0.0
+  hungerforkill: 0
+  foodLevel: 20
+  health: 20
+  preventDeath: true
+  refillInventory: true
+  saturation: 20
+  quickloot: false
+protection:
+  enabled: true
+  punish: false
+  spawn: 0
+ready:
+  autoClass: none
+  block: 42
+  checkEachPlayer: false
+  checkEachTeam: true
+  enforceCountdown: false
+  minPlayers: 2
+  maxPlayers: 0
+  maxTeam: 0
+  neededRatio: 0.5
+time:
+  startCountDown: 10
+  regionTimer: 10
+  teleportProtect: 3
+  warmupCountDown: 0
+  pvp: 0
+tp:
+  death: spectator
+  exit: old
+  lose: old
+  win: old
+uses:
+  classSignsDisplay: false
+  deathMessages: true
+  evenTeams: false
+  ingameClassSwitch: false
+  overlapCheck: true
+  woolHead: false
+modules:
+  aftermatch:
+    aftermatch: 'off'
+  announcements:
+    radius: 0
+    color: AQUA
+    join: true
+    start: true
+    end: false
+    winner: true
+    loser: false
+    prize: true
+    custom: false
+    advert: true
+  arenamaps:
+    aligntoplayer: false
+    showspawns: true
+    showplayers: true
+    showlives: true
+  arenavote:
+    everyone: true
+    autostart: false
+    readyup: 30
+    onlySpamToJOIN: false
+    seconds: 30
+    world: none
+  battlefieldguard:
+    enterdeath: false
+  betterfight:
+    usemessages: false
+    onehititems: none
+    resetkillstreakondeath: true
+    explodeondeath: true
+  blockrestore:
+    hard: false
+    offset: 1
+    restoreblocks: true
+    restorechests: false
+  colorteams:
+    hidename: false
+  fixinventoryloss:
+    gamemode: false
+    inventory: false
+  items:
+    interval: 5
+    items: 262,256,258,260
+    respawnseconds: 10
+  respawnrelay:
+    respawnseconds: 10
+    choosespawn: false
+  playerfinder:
+    maxradius: 100
+  powerups:
+    dropspawn: false
+    usage: 'off'
+  skins:
+    vanilla: false
+  specialjoin:
+    showplayers: true
+  startfreeze:
+    freezetimer: 0
+  turrets:
+    maxdegrees: 90.0
+    mininterval: 0
+  vault:
+    betpot: false
+    bettime: 60
+    betWinFactor: 1.0
+    betWinTeamFactor: 1.0
+    betWinPlayerFactor: 1.0
+    entryfee: 1
+    killreward: 0.0
+    minplaytime: 0
+    minbet: 0.0
+    maxbet: 0.0
+    winPot: true
+    winFactor: 2.0
+    winreward: 0
+  walls:
+    wallmaterial: SAND
+    wallseconds: 300
+  worldedit:
+    autoload: false
+    autosave: false
+classitems:
+  Spleef: 269,298,299,300,301
+teams:
+  red: RED
+  blue: BLUE
+spawns:
+  lounge: world,1639,53,1032,-270.45751953125,10.650375366210938
+  spectator: world,1638,55,1023,-45.157535552978516,18.600374221801758
+  spawn1: world,1657,52,1044,-174.01144409179688,15.449999809265137
+  spawn2: world,1656,52,1025,-1.8115234375,25.800003051757812
+  spawn3: world,1665,52,1035,-264.1614990234375,11.250007629394531
+  spawn4: world,1646,52,1034,-90.31149291992188,21.750011444091797
+arenaregion:
+  battlefield: world,1638,42,1015,1669,57,1051,CUBOID,0,0,BATTLE

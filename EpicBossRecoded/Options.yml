@@ -1,0 +1,6 @@
+# --== Options for EpicBossRecoded ==--
+# -----------------------------
+# Here is the message when you hit the boss
+# [EpicBoss], change this to your own text :)
+BossTitle: '&7'
+percentage: false

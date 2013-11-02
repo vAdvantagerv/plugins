@@ -1,0 +1,1315 @@
+icons:
+    physicalshop.shop:
+        label: physicalshop.shop
+    simpleclans.home:
+        label: simpleclans.home
+    simpleclans.death:
+        label: simpleclans.death
+sets:
+    markers:
+        circles: {
+            }
+        hide: false
+        markers:
+            _sign_world_788_63_1933:
+                icon: anchor
+                markup: true
+                label: Dock
+                z: 1933.5
+                world: world
+                y: 63.5
+                x: 788.5
+            _sign_world_-2807_64_896:
+                icon: factory
+                markup: true
+                label: Agriculture<br/>Area
+                z: 896.5
+                world: world
+                y: 64.5
+                x: -2806.5
+            _sign_world_351_65_1264:
+                icon: default
+                markup: true
+                label: Newbie Vill
+                z: 1264.5
+                world: world
+                y: 65.5
+                x: 351.5
+            _sign_world_-2102_64_2439:
+                icon: bighouse
+                markup: true
+                label: 마굿간
+                z: 2439.5
+                world: world
+                y: 64.5
+                x: -2101.5
+            _sign_world_-1930_62_2536:
+                icon: blueflag
+                markup: true
+                label: 공용농장
+                z: 2536.5
+                world: world
+                y: 62.5
+                x: -1929.5
+            _sign_world_-201_7_800:
+                icon: gear
+                markup: true
+                label: Rapture
+                z: 800.5
+                world: world
+                y: 7.5
+                x: -200.5
+            _sign_world_-2534_65_-2371:
+                icon: redflag
+                markup: true
+                label: NP2-Farm island
+                z: -2370.5
+                world: world
+                y: 65.5
+                x: -2533.5
+            _sign_world_-1826_64_2560:
+                icon: coins
+                markup: true
+                label: 은행
+                z: 2560.5
+                world: world
+                y: 64.5
+                x: -1825.5
+            _sign_world_-2725_65_1062:
+                icon: cart
+                markup: true
+                label: YG Market
+                z: 1062.5
+                world: world
+                y: 65.5
+                x: -2724.5
+            _sign_world_-346_65_2798:
+                icon: heart
+                markup: true
+                label: OriDong&amp;NAMOO
+                z: 2798.5
+                world: world
+                y: 65.5
+                x: -345.5
+            _sign_world_-142_116_1746:
+                icon: cutlery
+                markup: true
+                label: timelord's home
+                z: 1746.5
+                world: world
+                y: 116.5
+                x: -141.5
+            _sign_world_1296_65_1296:
+                icon: coins
+                markup: true
+                label: vADv은행
+                z: 1296.5
+                world: world
+                y: 65.5
+                x: 1296.5
+            _sign_world_-1173_16_-575:
+                icon: sign
+                markup: true
+                label: '123'
+                z: -574.5
+                world: world
+                y: 16.5
+                x: -1172.5
+            _sign_world_-2110_62_2644:
+                icon: redflag
+                markup: true
+                label: 산업단지
+                z: 2644.5
+                world: world
+                y: 62.5
+                x: -2109.5
+            _sign_world_733_5_1840:
+                icon: cross
+                markup: true
+                label: Stone City
+                z: 1840.5
+                world: world
+                y: 5.5
+                x: 733.5
+            _sign_world_-1964_68_2494:
+                icon: portal
+                markup: true
+                label: 제1 게이트
+                z: 2494.5
+                world: world
+                y: 68.5
+                x: -1963.5
+            _sign_world_618_64_1918:
+                icon: sign
+                markup: true
+                label: West Exit
+                z: 1918.5
+                world: world
+                y: 64.5
+                x: 618.5
+            _sign_world_-1703_47_1789:
+                icon: drink
+                markup: true
+                label: PockPockVillage
+                z: 1789.5
+                world: world
+                y: 47.5
+                x: -1702.5
+            _sign_world_-164_107_1870:
+                icon: bookshelf
+                markup: true
+                label: Arkan_nim's<br/>home
+                z: 1870.5
+                world: world
+                y: 107.5
+                x: -163.5
+            _sign_world_-404_63_1891:
+                icon: chest
+                markup: true
+                label: Ataraxia_O's<br/>Mine 02
+                z: 1891.5
+                world: world
+                y: 63.5
+                x: -403.5
+            _sign_world_-2891_62_1150:
+                icon: lightbulb
+                markup: true
+                label: Uncivil Library
+                z: 1150.5
+                world: world
+                y: 62.5
+                x: -2890.5
+            _sign_world_-140_63_1725:
+                icon: ruby
+                markup: true
+                label: eonred's home
+                z: 1725.5
+                world: world
+                y: 63.5
+                x: -139.5
+            _sign_world_-264_64_1932:
+                icon: chest
+                markup: true
+                label: Ataraxia_O's<br/>Mine 01
+                z: 1932.5
+                world: world
+                y: 64.5
+                x: -263.5
+            _sign_world_1283_62_1239:
+                icon: bighouse
+                markup: true
+                label: Advantage Town
+                z: 1239.5
+                world: world
+                y: 62.5
+                x: 1283.5
+            _sign_world_-2613_68_160:
+                icon: coins
+                markup: true
+                label: Ravenna
+                z: 160.5
+                world: world
+                y: 68.5
+                x: -2612.5
+            _sign_world_-1047_83_-1105:
+                icon: tree
+                markup: true
+                label: Krin Pice<br/>Tree of life
+                z: -1104.5
+                world: world
+                y: 83.5
+                x: -1046.5
+            _sign_world_1242_73_1249:
+                icon: cutlery
+                markup: true
+                label: 자동 수박재배기
+                z: 1249.5
+                world: world
+                y: 73.5
+                x: 1242.5
+            _sign_world_-1806_60_2447:
+                icon: anchor
+                markup: true
+                label: 폭시비치
+                z: 2447.5
+                world: world
+                y: 60.5
+                x: -1805.5
+            _sign_world_397_61_2518:
+                icon: default
+                markup: true
+                label: Ravnica
+                z: 2518.5
+                world: world
+                y: 61.5
+                x: 397.5
+            _sign_world_-165_111_1746:
+                icon: warning
+                markup: true
+                label: HMU fort-01
+                z: 1746.5
+                world: world
+                y: 111.5
+                x: -164.5
+            _sign_world_-1863_64_2581:
+                icon: church
+                markup: true
+                label: 쁘띠성당
+                z: 2581.5
+                world: world
+                y: 64.5
+                x: -1862.5
+            _sign_world_-2352_64_-1418:
+                icon: sign
+                markup: true
+                label: '523'
+                z: -1417.5
+                world: world
+                y: 64.5
+                x: -2351.5
+            _sign_world_-127_112_1744:
+                icon: tower
+                markup: true
+                label: HMU company
+                z: 1744.5
+                world: world
+                y: 112.5
+                x: -126.5
+            _sign_world_-1998_65_2478:
+                icon: scales
+                markup: true
+                label: NPC 수용소
+                z: 2478.5
+                world: world
+                y: 65.5
+                x: -1997.5
+            _sign_world_-1154_61_-315:
+                icon: greenflag
+                markup: true
+                label: Melon Island
+                z: -314.5
+                world: world
+                y: 61.5
+                x: -1153.5
+            _sign_world_-1437_69_-711:
+                icon: tower
+                markup: true
+                label: TAX
+                z: -710.5
+                world: world
+                y: 69.5
+                x: -1436.5
+            _sign_world_-94_113_1777:
+                icon: cake
+                markup: true
+                label: Cherryade's<br/>house
+                z: 1777.5
+                world: world
+                y: 113.5
+                x: -93.5
+            _sign_world_-1599_62_-772:
+                icon: coins
+                markup: true
+                label: TAX
+                z: -771.5
+                world: world
+                y: 62.5
+                x: -1598.5
+            _sign_world_-1981_61_2443:
+                icon: anchor
+                markup: true
+                label: 해안쉼터
+                z: 2443.5
+                world: world
+                y: 61.5
+                x: -1980.5
+            _sign_world_-1953_66_2431:
+                icon: king
+                markup: true
+                label: 폭시아 동상
+                z: 2431.5
+                world: world
+                y: 66.5
+                x: -1952.5
+            _sign_world_-80_85_1741:
+                icon: lighthouse
+                markup: true
+                label: light house
+                z: 1741.5
+                world: world
+                y: 85.5
+                x: -79.5
+            _sign_world_-2922_80_-2950:
+                icon: tree
+                markup: true
+                label: Gildergreen
+                z: -2949.5
+                world: world
+                y: 80.5
+                x: -2921.5
+            _sign_world_-1861_62_2514:
+                icon: building
+                markup: true
+                label: 무역센터
+                z: 2514.5
+                world: world
+                y: 62.5
+                x: -1860.5
+            _sign_world_-1714_62_2590:
+                icon: tower
+                markup: true
+                label: 쁘띠케슬
+                z: 2590.5
+                world: world
+                y: 62.5
+                x: -1713.5
+            _sign_world_-2952_63_-3198:
+                icon: church
+                markup: true
+                label: 명동성당
+                z: -3197.5
+                world: world
+                y: 63.5
+                x: -2951.5
+            _sign_world_-2306_65_606:
+                icon: warning
+                markup: true
+                label: Sand Quarry
+                z: 606.5
+                world: world
+                y: 65.5
+                x: -2305.5
+            _sign_world_-836_65_-1106:
+                icon: walk
+                markup: true
+                label: KPice NongYak<br/>Residence Area
+                z: -1105.5
+                world: world
+                y: 65.5
+                x: -835.5
+            _sign_world_-1973_65_2637:
+                icon: portal
+                markup: true
+                label: 제2 게이트
+                z: 2637.5
+                world: world
+                y: 65.5
+                x: -1972.5
+            _sign_world_-1476_67_1621:
+                icon: redflag
+                markup: true
+                label: Waikiki Island
+                z: 1621.5
+                world: world
+                y: 67.5
+                x: -1475.5
+            _sign_world_-1344_71_-609:
+                icon: sign
+                markup: true
+                label: ssang
+                z: -608.5
+                world: world
+                y: 71.5
+                x: -1343.5
+            _sign_world_-117_66_-75:
+                icon: goldstar
+                markup: true
+                label: Semaul Castle
+                z: -74.5
+                world: world
+                y: 66.5
+                x: -116.5
+            _sign_world_-2911_62_601:
+                icon: sign
+                markup: true
+                label: YG Town 3<br/>(Vonezia)
+                z: 601.5
+                world: world
+                y: 62.5
+                x: -2910.5
+            _sign_world_-17_70_-59:
+                icon: minecart
+                markup: true
+                label: Semaul Station
+                z: -58.5
+                world: world
+                y: 70.5
+                x: -16.5
+            _sign_world_-1338_90_-586:
+                icon: sign
+                markup: true
+                label: daf
+                z: -585.5
+                world: world
+                y: 90.5
+                x: -1337.5
+            _sign_world_-2744_61_748:
+                icon: house
+                markup: true
+                label: Each's<br/>Dovhakiin house
+                z: 748.5
+                world: world
+                y: 61.5
+                x: -2743.5
+            _sign_world_-1646_55_1307:
+                icon: anchor
+                markup: true
+                label: Submarine Base
+                z: 1307.5
+                world: world
+                y: 55.5
+                x: -1645.5
+            _sign_world_-2055_76_2536:
+                icon: house
+                markup: true
+                label: 폭시아네 집
+                z: 2536.5
+                world: world
+                y: 76.5
+                x: -2054.5
+            _sign_world_-1888_64_2477:
+                icon: lighthouse
+                markup: true
+                label: 폭시등대
+                z: 2477.5
+                world: world
+                y: 64.5
+                x: -1887.5
+            _sign_world_-2585_65_642:
+                icon: sign
+                markup: true
+                label: huochick7
+                z: 642.5
+                world: world
+                y: 65.5
+                x: -2584.5
+            _sign_world_-1838_83_381:
+                icon: temple
+                markup: true
+                label: Ziggurat
+                z: 381.5
+                world: world
+                y: 83.5
+                x: -1837.5
+            _sign_world_-836_64_3588:
+                icon: sign
+                markup: true
+                label: rootlreland
+                z: 3588.5
+                world: world
+                y: 64.5
+                x: -835.5
+            _sign_world_-160_115_1800:
+                icon: chest
+                markup: true
+                label: minas's home
+                z: 1800.5
+                world: world
+                y: 115.5
+                x: -159.5
+            _sign_world_-386_63_2081:
+                icon: house
+                markup: true
+                label: Bt's<br/>House
+                z: 2081.5
+                world: world
+                y: 63.5
+                x: -385.5
+            _sign_world_-2066_63_2461:
+                icon: sign
+                markup: true
+                label: 초원지역<br/>(폭시타운 2지구)
+                z: 2461.5
+                world: world
+                y: 63.5
+                x: -2065.5
+            _sign_world_1295_63_1259:
+                icon: redflag
+                markup: true
+                label: AD지하철역
+                z: 1259.5
+                world: world
+                y: 63.5
+                x: 1295.5
+            _sign_world_-138_118_1804:
+                icon: cake
+                markup: true
+                label: Ataraxia_O's<br/>Farm
+                z: 1804.5
+                world: world
+                y: 118.5
+                x: -137.5
+            _sign_world_220_63_664:
+                icon: house
+                markup: true
+                label: ang's home
+                z: 664.5
+                world: world
+                y: 63.5
+                x: 220.5
+            _sign_world_-1790_57_2683:
+                icon: temple
+                markup: true
+                label: 스타디움
+                z: 2683.5
+                world: world
+                y: 57.5
+                x: -1789.5
+            _sign_world_-2100_65_2557:
+                icon: sign
+                markup: true
+                label: 모던타운
+                z: 2557.5
+                world: world
+                y: 65.5
+                x: -2099.5
+            _sign_world_-2564_68_1185:
+                icon: house
+                markup: true
+                label: BLUENESS2'S<br/>HOUSE
+                z: 1185.5
+                world: world
+                y: 68.5
+                x: -2563.5
+            _sign_world_-1930_61_2491:
+                icon: building
+                markup: true
+                label: 마을회관
+                z: 2491.5
+                world: world
+                y: 61.5
+                x: -1929.5
+            _sign_world_-2607_65_-2296:
+                icon: king
+                markup: true
+                label: North Pumpkin-1
+                z: -2295.5
+                world: world
+                y: 65.5
+                x: -2606.5
+            _sign_world_-2005_65_2452:
+                icon: diamond
+                markup: true
+                label: 돈타워
+                z: 2452.5
+                world: world
+                y: 65.5
+                x: -2004.5
+            _sign_world_-1970_63_2470:
+                icon: minecart
+                markup: true
+                label: 폭시타운 역
+                z: 2470.5
+                world: world
+                y: 63.5
+                x: -1969.5
+            _sign_world_-868_64_-1120:
+                icon: bighouse
+                markup: true
+                label: Krin Pice<br/>NongYak house
+                z: -1119.5
+                world: world
+                y: 64.5
+                x: -867.5
+            _sign_world_705_58_1877:
+                icon: sign
+                markup: true
+                label: Exit
+                z: 1877.5
+                world: world
+                y: 58.5
+                x: 705.5
+            _sign_world_-1969_62_2671:
+                icon: factory
+                markup: true
+                label: 양털채취소
+                z: 2671.5
+                world: world
+                y: 62.5
+                x: -1968.5
+            _sign_world_-1906_62_2541:
+                icon: sign
+                markup: true
+                label: 사막지역<br/>(폭시타운 1지구)
+                z: 2541.5
+                world: world
+                y: 62.5
+                x: -1905.5
+            _sign_world_-2892_67_1037:
+                icon: bighouse
+                markup: true
+                label: Community Hall
+                z: 1037.5
+                world: world
+                y: 67.5
+                x: -2891.5
+            _sign_world_2152_73_-19:
+                icon: redflag
+                markup: true
+                label: South End
+                z: -18.5
+                world: world
+                y: 73.5
+                x: 2152.5
+            _sign_world_992_67_3548:
+                icon: church
+                markup: true
+                label: Church
+                z: 3548.5
+                world: world
+                y: 67.5
+                x: 992.5
+            _sign_world_-2050_62_2644:
+                icon: tree
+                markup: true
+                label: 벌목지구
+                z: 2644.5
+                world: world
+                y: 62.5
+                x: -2049.5
+            _sign_world_-2502_65_1424:
+                icon: pinkflag
+                markup: true
+                label: YangGaeng<br/>Archipelago
+                z: 1424.5
+                world: world
+                y: 65.5
+                x: -2501.5
+            _sign_world_-2962_67_843:
+                icon: greenflag
+                markup: true
+                label: Sudal Land
+                z: 843.5
+                world: world
+                y: 67.5
+                x: -2961.5
+            _sign_world_-208_116_1757:
+                icon: cake
+                markup: true
+                label: Cherryice's<br/>home
+                z: 1757.5
+                world: world
+                y: 116.5
+                x: -207.5
+            _sign_world_-1946_62_2579:
+                icon: basket
+                markup: true
+                label: 시장
+                z: 2579.5
+                world: world
+                y: 62.5
+                x: -1945.5
+            _sign_world_-2697_68_797:
+                icon: heart
+                markup: true
+                label: Mimyo&amp;Rabbit's<br/>Mini village
+                z: 797.5
+                world: world
+                y: 68.5
+                x: -2696.5
+            _sign_world_-3119_96_-3062:
+                icon: factory
+                markup: true
+                label: Refinery
+                z: -3061.5
+                world: world
+                y: 96.5
+                x: -3118.5
+            _sign_world_127_66_0:
+                icon: skull
+                markup: false
+                label: Jail de Mazenta
+                z: 0.5
+                world: world
+                y: 66.5
+                x: 127.5
+            _sign_world_693_21_1839:
+                icon: sign
+                markup: true
+                label: Chapel
+                z: 1839.5
+                world: world
+                y: 21.5
+                x: 693.5
+            _sign_world_-2029_76_2556:
+                icon: house
+                markup: true
+                label: 고구마네 집
+                z: 2556.5
+                world: world
+                y: 76.5
+                x: -2028.5
+            _sign_world_-1721_65_1524:
+                icon: lighthouse
+                markup: true
+                label: Light House
+                z: 1524.5
+                world: world
+                y: 65.5
+                x: -1720.5
+            _sign_world_-1946_57_2610:
+                icon: chest
+                markup: true
+                label: 제2 창고
+                z: 2610.5
+                world: world
+                y: 57.5
+                x: -1945.5
+            _sign_world_-1599_65_-726:
+                icon: church
+                markup: true
+                label: church
+                z: -725.5
+                world: world
+                y: 65.5
+                x: -1598.5
+            _sign_world_-101_128_1786:
+                icon: sun
+                markup: true
+                label: Ataraxia_O's<br/>Sun
+                z: 1786.5
+                world: world
+                y: 128.5
+                x: -100.5
+            _sign_world_-1937_62_2689:
+                icon: building
+                markup: true
+                label: 운하빌딩
+                z: 2689.5
+                world: world
+                y: 62.5
+                x: -1936.5
+            _sign_world_-3840_64_1348:
+                icon: king
+                markup: true
+                label: 카푸치피아
+                z: 1348.5
+                world: world
+                y: 64.5
+                x: -3839.5
+            _sign_world_-2849_65_1037:
+                icon: world
+                markup: true
+                label: YangGaeng Town
+                z: 1037.5
+                world: world
+                y: 65.5
+                x: -2848.5
+            _sign_world_-2252_63_-2549:
+                icon: tree
+                markup: true
+                label: Yordles
+                z: -2548.5
+                world: world
+                y: 63.5
+                x: -2251.5
+            _sign_world_-222_63_756:
+                icon: comment
+                markup: true
+                label: Atlantis Wow!!!<br/>great city
+                z: 756.5
+                world: world
+                y: 63.5
+                x: -221.5
+            _sign_world_-3023_100_-2949:
+                icon: temple
+                markup: true
+                label: Dragonsreach
+                z: -2948.5
+                world: world
+                y: 100.5
+                x: -3022.5
+            _sign_world_-1738_56_2419:
+                icon: sign
+                markup: true
+                label: 신도시 프로젝트지역<br/>(폭시타운 특별지구/3지구)
+                z: 2419.5
+                world: world
+                y: 56.5
+                x: -1737.5
+            _sign_world_1454_22_-104:
+                icon: tower
+                markup: true
+                label: ice tower
+                z: -103.5
+                world: world
+                y: 22.5
+                x: 1454.5
+            _sign_world_-2667_64_900:
+                icon: goldstar
+                markup: true
+                label: Nuss&amp;Iwquqy's<br/>Big House
+                z: 900.5
+                world: world
+                y: 64.5
+                x: -2666.5
+        layerprio: 0
+        areas: {
+            }
+        deficon: default
+        lines: {
+            }
+        label: 팻말
+        minzoom: 0
+    roads:
+        circles: {
+            }
+        hide: false
+        markers:
+            e0.5:
+                icon: minecart
+                markup: false
+                label: station e0.5
+                z: 0.0
+                world: world
+                y: 50.0
+                x: 1500.0
+            n1:
+                icon: minecart
+                markup: false
+                label: station n1
+                z: -3000.0
+                world: world
+                y: 50.0
+                x: 0.0
+            n1.5:
+                icon: minecart
+                markup: false
+                label: station n1.5
+                z: -4500.0
+                world: world
+                y: 50.0
+                x: 0.0
+            n2:
+                icon: minecart
+                markup: false
+                label: station n2
+                z: -6000.0
+                world: world
+                y: 50.0
+                x: 0.0
+            w1.5:
+                icon: minecart
+                markup: false
+                label: station w1.5
+                z: 0.0
+                world: world
+                y: 50.0
+                x: -4500.0
+            s1.5:
+                icon: minecart
+                markup: false
+                label: station s1.5
+                z: 4500.0
+                world: world
+                y: 50.0
+                x: 0.0
+            n0.5:
+                icon: minecart
+                markup: false
+                label: station n0.5
+                z: -1500.0
+                world: world
+                y: 50.0
+                x: 0.0
+            s1e1:
+                icon: minecart
+                markup: false
+                label: station s1e1
+                z: 3000.0
+                world: world
+                y: 50.0
+                x: 3000.0
+            e1.5:
+                icon: minecart
+                markup: false
+                label: station e1.5
+                z: 0.0
+                world: world
+                y: 50.0
+                x: 4500.0
+            e2.5:
+                icon: minecart
+                markup: false
+                label: station e2.5
+                z: 0.0
+                world: world
+                y: 50.0
+                x: 7500.0
+            s1e2:
+                icon: minecart
+                markup: false
+                label: station s1e2
+                z: 3000.0
+                world: world
+                y: 50.0
+                x: 6000.0
+            s0.5:
+                icon: minecart
+                markup: false
+                label: station s0.5
+                z: 1500.0
+                world: world
+                y: 50.0
+                x: 0.0
+            s1w2:
+                icon: minecart
+                markup: false
+                label: station s1w2
+                z: 3000.0
+                world: world
+                y: 50.0
+                x: -6000.0
+            s1w1:
+                icon: minecart
+                markup: false
+                label: station s1w1
+                z: 3000.0
+                world: world
+                y: 50.0
+                x: -3000.0
+            s2.5:
+                icon: minecart
+                markup: false
+                label: station s2.5
+                z: 7500.0
+                world: world
+                y: 50.0
+                x: 0.0
+            w2.5:
+                icon: minecart
+                markup: false
+                label: station w2.5
+                z: 0.0
+                world: world
+                y: 50.0
+                x: -7500.0
+            s2e1:
+                icon: minecart
+                markup: false
+                label: station s2e1
+                z: 6000.0
+                world: world
+                y: 50.0
+                x: 3000.0
+            s2e2:
+                icon: minecart
+                markup: false
+                label: station s2e2
+                z: 6000.0
+                world: world
+                y: 50.0
+                x: 6000.0
+            s2:
+                icon: minecart
+                markup: false
+                label: station s2
+                z: 6000.0
+                world: world
+                y: 50.0
+                x: 0.0
+            n2w1:
+                icon: minecart
+                markup: false
+                label: station n2w1
+                z: -6000.0
+                world: world
+                y: 50.0
+                x: -3000.0
+            s1:
+                icon: minecart
+                markup: false
+                label: station s1
+                z: 3000.0
+                world: world
+                y: 50.0
+                x: 0.0
+            n2w2:
+                icon: minecart
+                markup: false
+                label: station n2w2
+                z: -6000.0
+                world: world
+                y: 50.0
+                x: -6000.0
+            n1e1:
+                icon: minecart
+                markup: false
+                label: station n1e1
+                z: -3000.0
+                world: world
+                y: 50.0
+                x: 3000.0
+            w1:
+                icon: minecart
+                markup: false
+                label: station w1
+                z: 0.0
+                world: world
+                y: 50.0
+                x: -3000.0
+            w2:
+                icon: minecart
+                markup: false
+                label: station w2
+                z: 0.0
+                world: world
+                y: 50.0
+                x: -6000.0
+            n2.5:
+                icon: minecart
+                markup: false
+                label: station n2.5
+                z: -7500.0
+                world: world
+                y: 50.0
+                x: 0.0
+            e1:
+                icon: minecart
+                markup: false
+                label: station e1
+                z: 0.0
+                world: world
+                y: 50.0
+                x: 3000.0
+            n1e2:
+                icon: minecart
+                markup: false
+                label: station n1e2
+                z: -3000.0
+                world: world
+                y: 50.0
+                x: 6000.0
+            e2:
+                icon: minecart
+                markup: false
+                label: station e2
+                z: 0.0
+                world: world
+                y: 50.0
+                x: 6000.0
+            n2e2:
+                icon: minecart
+                markup: false
+                label: station n2e2
+                z: -6000.0
+                world: world
+                y: 50.0
+                x: 6000.0
+            n2e1:
+                icon: minecart
+                markup: false
+                label: station n2e1
+                z: -6000.0
+                world: world
+                y: 50.0
+                x: 3000.0
+            s2w2:
+                icon: minecart
+                markup: false
+                label: station s2w2
+                z: 6000.0
+                world: world
+                y: 50.0
+                x: -6000.0
+            s2w1:
+                icon: minecart
+                markup: false
+                label: station s2w1
+                z: 6000.0
+                world: world
+                y: 50.0
+                x: -3000.0
+            w0.5:
+                icon: minecart
+                markup: false
+                label: station w0.5
+                z: 0.0
+                world: world
+                y: 50.0
+                x: -1500.0
+            n1w1:
+                icon: minecart
+                markup: false
+                label: station n1w1
+                z: -3000.0
+                world: world
+                y: 50.0
+                x: -3000.0
+            n1w2:
+                icon: minecart
+                markup: false
+                label: station n1w2
+                z: -3000.0
+                world: world
+                y: 50.0
+                x: -6000.0
+        layerprio: 0
+        areas: {
+            }
+        deficon: default
+        lines:
+            line_7:
+                markup: false
+                label: Width Northern 1st Line
+                z:
+                - -3000.0
+                - -3000.0
+                strokeColor: 26367
+                world: world
+                y:
+                - 50.0
+                - 50.0
+                strokeOpacity: 0.8
+                strokeWeight: 3
+                x:
+                - 6000.0
+                - -6000.0
+            line_8:
+                markup: false
+                label: Width Northern 2nd Line
+                z:
+                - -6000.0
+                - -6000.0
+                strokeColor: 26367
+                world: world
+                y:
+                - 50.0
+                - 50.0
+                strokeOpacity: 0.8
+                strokeWeight: 3
+                x:
+                - 6000.0
+                - -6000.0
+            line_9:
+                markup: false
+                label: Width Southern 1st Line
+                z:
+                - 3000.0
+                - 3000.0
+                strokeColor: 26367
+                world: world
+                y:
+                - 50.0
+                - 50.0
+                strokeOpacity: 0.8
+                strokeWeight: 3
+                x:
+                - 6000.0
+                - -6000.0
+            line_3:
+                markup: false
+                label: Length Western 1st Line
+                z:
+                - 6000.0
+                - -6000.0
+                strokeColor: 52224
+                world: world
+                y:
+                - 50.0
+                - 50.0
+                strokeOpacity: 0.8
+                strokeWeight: 3
+                x:
+                - -3000.0
+                - -3000.0
+            line_4:
+                markup: false
+                label: Length Western 2nd Line
+                z:
+                - -6000.0
+                - 6000.0
+                strokeColor: 52224
+                world: world
+                y:
+                - 50.0
+                - 50.0
+                strokeOpacity: 0.8
+                strokeWeight: 3
+                x:
+                - -6000.0
+                - -6000.0
+            line_5:
+                markup: false
+                label: Length Eastern 1st Line
+                z:
+                - -6000.0
+                - 6000.0
+                strokeColor: 52224
+                world: world
+                y:
+                - 50.0
+                - 50.0
+                strokeOpacity: 0.8
+                strokeWeight: 3
+                x:
+                - 3000.0
+                - 3000.0
+            line_6:
+                markup: false
+                label: Length Eastern 2st Line
+                z:
+                - -6000.0
+                - 6000.0
+                strokeColor: 52224
+                world: world
+                y:
+                - 50.0
+                - 50.0
+                strokeOpacity: 0.8
+                strokeWeight: 3
+                x:
+                - 6000.0
+                - 6000.0
+            line_1:
+                markup: false
+                label: Length Central Line
+                z:
+                - 7500.0
+                - -7500.0
+                strokeColor: 52224
+                world: world
+                y:
+                - 50.0
+                - 50.0
+                strokeOpacity: 0.3
+                strokeWeight: 3
+                x:
+                - 0.0
+                - 0.0
+            line_2:
+                markup: false
+                label: Width Central Line
+                z:
+                - 0.0
+                - 0.0
+                strokeColor: 26367
+                world: world
+                y:
+                - 50.0
+                - 50.0
+                strokeOpacity: 0.3
+                strokeWeight: 3
+                x:
+                - 7500.0
+                - -7500.0
+            line_10:
+                markup: false
+                label: Width Southern 2nd Line
+                z:
+                - 6000.0
+                - 6000.0
+                strokeColor: 26367
+                world: world
+                y:
+                - 50.0
+                - 50.0
+                strokeOpacity: 0.8
+                strokeWeight: 3
+                x:
+                - 6000.0
+                - -6000.0
+        label: 간선
+        minzoom: 0
+playersets: {
+    }

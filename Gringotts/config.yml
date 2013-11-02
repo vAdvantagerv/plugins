@@ -1,0 +1,13 @@
+currency:
+  type: 388
+  datavalue: 0
+  name:
+    singular: Semal
+    plural: Semals
+  fractional: true
+transactiontax:
+  flat: 1.0
+  rate: 0.0
+usevault:
+  container: true
+  enderchest: true

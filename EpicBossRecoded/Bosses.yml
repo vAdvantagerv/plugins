@@ -1,0 +1,430 @@
+Bosses:
+  Enderdragon:
+    Type: enderdragon
+    Health: 400
+    Showhp: true
+    Damage: 99
+    Skills:
+    - effect ender
+    - effect ender
+    - effect ender
+    - command say_ENDERDRAGON_HAS_BEEN_SPAWN! =400 1
+    - bossmsg 300:&dBLINDNESS! =399 1
+    - potion 300:BLINDNESS:2:1 =399 1
+    - potion 300:SLOW:2:3 =383 1
+    - bossmsg 300:&dSLOW! =383 1
+    - lightning 100:6 =373 1
+    - bossmsg 300:&dTHOR! =373 1
+    - potion 300:CONFUSION:10:2 =360 1
+    - bossmsg 300:&dNAUSEA! =360 1
+    - potion 300:BLINDNESS:5:1 =350 1
+    - bossmsg 300:&4[WARNING]&dSPAWN_MINION! =350 1
+    - swarm $EnderGhast:1 =350 1
+    - swarm $EnderZombie:1 =350 0.5
+    - swarm $EnderZombie:1 =350 0.5
+    - swarm $EnderGhast:1 =350 0.5
+    - potion 300:SLOW:3:3 =340 1
+    - bossmsg 300:&dSLOW! =340 1
+    - lightning 50:6 =330 1
+    - bossmsg 50:&dTHOR! =330 1
+    - swarm $EnderBlaze:1 =315 1
+    - bossmsg 300:&4[WARNING]&dSPAWN_MINION! =315 1
+    - swarm $EnderBlaze:1 =315 0.5
+    - swarm $EnderZombie:1 =315 0.5
+    - swarm $EnderZombie:1 =315 0.5
+    - potion 300:BLINDNESS:5:5 =315 1
+    - potion 300:SLOW:3:3 =307 1
+    - bossmsg 300:&dNAUSEA! =307 1
+    - potion 300:CONFUSION:10:2 =307 1
+    - bossmsg 300:&4[WARNING]&dSPAWN_MINION! =302 1
+    - swarm $EnderBlaze:1 =302 0.5
+    - swarm $EnderZombie:1 =302 1
+    - swarm $EnderZombie:1 =302 0.5
+    - swarm $EnderZombie:1 =302 0.5
+    - lightning 50:6 =299 1
+    - bossmsg 300:&3BOSS_HP_&4300 =299 1
+    - potion 300:SLOW:3:4 =280 1
+    - swarm $BloodZombie:6 =299 1
+    - swarm $BloodZombie2:1 =299 0.2
+    - bossmsg 300:&4[WARNING]&dSPAWN_MINION! =280 1
+    - potion 300:WEAKNESS:10:4 =280 1
+    - swarm $EnderGhast:1 =280 1
+    - swarm $EnderGhast:1 =280 0.5
+    - swarm $EnderGhast:1 =280 0.3
+    - swarm $EnderZombie:1 =280 0.5
+    - swarm $EnderZombie:1 =280 0.5
+    - swarm $EnderZombie:1 =280 0.5
+    - swarm $EnderZombie:1 =280 0.5
+    - potion 300:HUNGER:10:4 =273 1
+    - bossmsg 300:&dHUNGER! =273 1
+    - potion 300:POISON:2:4 =265 1
+    - bossmsg 300:&dPOISON! =265 1
+    - potion 300:CONFUSION:13:5 =250 1
+    - bossmsg 300:&dNAUSEA! =250 1
+    - potion 300:CONFUSION:10:5 =243 1
+    - bossmsg 300:&dNAUSEA! =243 1
+    - potion 300:SLOW:10:5 =243 1
+    - swarm $EnderBlaze:1 =235 1
+    - swarm $EnderZombie:1 =235 1
+    - swarm $EnderZombie:1 =235 1
+    - swarm $EnderZombie:1 =235 0.5
+    - swarm $EnderZombie:1 =235 0.5
+    - swarm $EnderZombie:1 =235 0.5
+    - swarm $EnderBlaze:1 =235 0.5
+    - swarm $EnderBlaze:1 =235 0.3
+    - swarm $EnderGhast:1 =235 1
+    - swarm $EnderGhast:1 =235 0.5
+    - bossmsg 300:&4[WARNING]&dSPAWN_MINION! =235 1
+    - potion 300:BLINDNESS:5:1 =235 1
+    - potion 300:POISON:2:4 =220 1
+    - bossmsg 300:&dPOISON! =220 1
+    - potion 300:HUNGER:6:4 =220 1
+    - bossmsg 300:&dTHOR! =213 1
+    - lightning 20:6 =213 1
+    - bossmsg 300:&3BOSS_HP_&4200 =199 1
+    - swarm $BloodZombie:6 =199 1
+    - swarm $BloodZombie2:1 =199 0.2
+    - swarm $EnderZombie2:1 =199 0.1
+    - swarm $EnderGhast:1 =199 1
+    - swarm $EnderGhast:1 =199 0.5
+    - swarm $EnderGhast:1 =199 0.3
+    - potion 300:BLINDNESS:5:1 =199 1
+    - potion 300:CONFUSION:10:5 =190 1
+    - bossmsg 300:&dNAUSEA! =190 1
+    - potion 300:SLOW:10:5 =190 1
+    - potion 300:WITHER:10:1 =180 1
+    - bossmsg 300:&dWITHER! =180 1
+    - potion 300:CONFUSION:10:1 =180 1
+    - swarm $EnderGhast:2 =172 1
+    - bossmsg 300:&4[WARNING]&dSPAWN_MINION! =172 1
+    - potion 300:BLINDNESS:5:1 =172 1
+    - potion 300:SLOW:10:5 =172 1
+    - potion 300:POISON:2:5 =162 1
+    - bossmsg 300:&dPOISON! =162 1
+    - potion 300:CONFUSION:10:5 =150 1
+    - bossmsg 300:&dNAUSEA! =150 1
+    - potion 300:HUNGER:10:5 =142 1
+    - bossmsg 300:&dHUNGER! =142 1
+    - potion 300:SLOW:10:4 =136 1
+    - bossmsg 300:&dSLOW! =136 1
+    - potion 300:HUNGER:10:5 =126 1
+    - bossmsg 300:&dHUNGER! =126 1
+    - swarm $EnderGhast:1 =119 1
+    - bossmsg 300:&4[WARNING]&dSPAWN_MINION! =119 1
+    - potion 300:BLINDNESS:5:1 =119 1
+    - swarm $EnderZombie:1 =119 1
+    - swarm $EnderZombie:1 =119 1
+    - swarm $EnderZombie:1 =119 1
+    - swarm $EnderZombie:1 =119 1
+    - bossmsg 300:&3BOSS_HP_&4100 =99 1
+    - potion 300:SLOW:10:4 =99 1
+    - bossmsg 300:&4[WARNING]&dSPAWN_MINION! =99 1
+    - swarm $BloodZombie:8 =99 1
+    - swarm $BloodZombie2:1 =99 0.2
+    - potion 300:WEAKNESS:10:4 =99 1
+    - swarm $EnderGhast:1 =99 1
+    - swarm $EnderGhast:1 =99 0.5
+    - swarm $EnderGhast:1 =99 0.3
+    - potion 300:HUNGER:10:4 =80 1
+    - bossmsg 300:&dHUNGER! =80 1
+    - swarm $EnderGhast:1 =78 0.3
+    - potion 300:POISON:2:4 =72 1
+    - bossmsg 300:&dPOISON! =72 1
+    - swarm $EnderGhast:1 =73 0.3
+    - potion 300:CONFUSION:13:5 =60 1
+    - swarm $EnderGhast:1 =66 0.3
+    - swarm $EnderGhast:1 =60 0.3
+    - swarm $EnderGhast:1 =57 0.3
+    - swarm $EnderZombie:1 =57 1
+    - swarm $EnderZombie:1 =57 0.5
+    - bossmsg 300:&dNAUSEA! =60 1
+    - potion 300:CONFUSION:10:5 =54 1
+    - bossmsg 300:&dNAUSEA! =54 1
+    - swarm $EnderGhast:1 =52 0.3
+    - potion 300:SLOW:10:5 =42 1
+    - swarm $EnderGhast:1 =45 0.3
+    - swarm $EnderBlaze:1 =42 1
+    - swarm $EnderBlaze:1 =42 0.5
+    - swarm $EnderBlaze:1 =42 0.3
+    - swarm $EnderGhast:1 =42 1
+    - swarm $EnderGhast:1 =42 0.5
+    - bossmsg 300:&4[WARNING]&dSPAWN_MINION! =42 1
+    - bossmsg 300:&4[WARNING]&dSPAWN_MINION! =30 1
+    - bossmsg 300:&4[WARNING]&dSPAWN_MINION! =10 1
+    - swarm $EnderGhast:1 =37 0.3
+    - swarm $EnderGhast:1 =33 0.3
+    - swarm $EnderGhast:1 =28 0.3
+    - swarm $EnderGhast:1 =21 0.3
+    - swarm $EnderZombie:1 =42 0.5
+    - swarm $EnderZombie:1 =42 0.5
+    - swarm $EnderZombie:1 =42 0.5
+    - swarm $EnderZombie:1 =42 0.5
+    - swarm $EnderZombie:1 =42 0.5
+    - bossmsg 300:&4[WARNING]&dFINAL_ATTACK!! =50 1
+    - swarm $EnderZombie2:1 =50 0.1
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.5
+    - swarm $EnderZombie:1 =50 0.4
+    - swarm $EnderZombie:1 =50 0.4
+    - swarm $EnderGhast:2 =50 1
+    - swarm $EnderGhast:2 =50 0.7
+    - swarm $EnderGhast:1 =50 0.7
+    - swarm $EnderGhast:1 =17 0.7
+    - swarm $EnderGhast:1 =50 0.7
+    - swarm $EnderGhast:1 =50 0.7
+    - swarm $EnderGhast:1 =50 0.4
+    - swarm $EnderGhast:1 =50 0.4
+    - swarm $EnderBlaze:2 =50 1
+    - swarm $EnderBlaze:2 =50 0.7
+    - swarm $EnderBlaze:2 =50 0.7
+    - swarm $EnderBlaze:2 =50 0.7
+    - swarm $EnderBlaze:2 =50 0.7
+    - swarm $EnderBlaze:2 =50 0.4
+    - swarm $EnderBlaze:2 =50 0.4
+    - swarm $EnderBlaze:2 =50 0.4
+    - swarm $EnderBlaze:2 =50 0.4
+    - potion 300:BLINDNESS:1:1 =50 1
+    - swarm $EnderGhast:2 =30 1
+    - swarm $EnderGhast:5 =20 1
+    - swarm $EnderGhast:2 =30 0.7
+    - swarm $EnderGhast:1 =30 0.7
+    - swarm $EnderGhast:1 =30 0.7
+    - swarm $EnderGhast:1 =30 0.7
+    - swarm $EnderGhast:1 =30 0.7
+    - swarm $EnderGhast:1 =30 0.4
+    - swarm $EnderGhast:1 =30 0.4
+    - swarm $EnderZombie:1 =30 0.5
+    - swarm $EnderZombie:1 =30 0.5
+    - swarm $EnderZombie:1 =30 0.5
+    - swarm $EnderZombie:1 =30 0.5
+    - swarm $EnderZombie:1 =30 0.5
+    - swarm $EnderZombie:1 =30 0.4
+    - swarm $EnderZombie:1 =30 0.4
+    - swarm $EnderGhast:2 =10 1
+    - swarm $EnderGhast:2 =10 0.7
+    - swarm $EnderGhast:2 =10 0.7
+    - swarm $EnderGhast:1 =10 0.7
+    - swarm $EnderGhast:1 =10 0.7
+    - swarm $EnderGhast:1 =10 0.7
+    - swarm $EnderGhast:1 =10 0.4
+    - swarm $EnderGhast:1 =10 0.4
+    - swarm $EnderGhast:1 <100 0.5
+    - swarm $EnderGiant:1 <300 0.1
+    - swarm $EnderGiant:1 <100 0.2
+    - swarm $EnderZombie:1 <100 0.5
+    - swarm $EnderBlaze:1 <100 0.5
+    - swarm $EnderWitch:1 <200 0.1
+    - lightning 10:4 <400 1
+    - bossmsg 10:&4You_are_too_proximity_Enderdragon. <400 1
+    - command playsound_ambient.cave.cave_$player_0_64_0_500_0.9 <400 0.3
+    - command playsound_mob.wither.spawn_$player_0_64_0_500_0.8 =50 1
+    - potion 400:REGENERATION:3:10 =0 1
+    - potion 400:DAMAGE_RESISTANCE:60:10 =0 1
+    - potion 400:FIRE_RESISTANCE:60:10 =0 1
+    - potion 400:WATER_BREATHING:60:10 =0 1
+    - potion 400:INCREASE_DAMAGE:60:10 =0 1
+    - command eb_boss_killtype_EnderGhast =0 1
+    - command eb_boss_killtype_EnderGiant =0 1
+    - command eb_boss_killtype_EnderZombie =0 1
+    - command eb_boss_killtype_EnderBlaze =0 1
+    - command eb_boss_killtype_EnderWitch =0 1
+    - command eb_boss_killtype_EnderZombie2 =0 1
+    - command eb_boss_killtype_BloodZombie =0 1
+    - command eb_boss_killtype_BloodZombie2 =0 1
+    - command say_$player_Kill_EnderDragon! =0 1
+    - command playsound_mob.enderdragon.end_$player_0_64_0_500_1.0 =0 1
+    - bossmsg 400:Enderdragon_was_slain_by_$player =0 1
+    - command xp_40000_$player =0 1
+    Drops:
+    - exp 1000
+    - 264:0:10 1
+    - 266:0:10 1
+    - 265:0:15 1
+    - 388:0:20 1
+    - 373:8229:1 0.7
+    - 373:8229:1 0.4
+    - 373:8229:1 0.5
+    - 373:8226:1 0.3
+    - 373:8226:1 0.5
+    - 373:8233:1 0.4
+    - 373:8233:1 0.7
+    - 373:8259:1 0.7
+    - 373:8259:1 0.8
+    - 373:8228:1 0.3
+    - 373:8228:1 0.5
+    - 373:8290:1 0.5 $&bPotion_of_DragonWing
+    - 373:8290:1 0.5 $&bPotion_of_DragonWing
+    - 373:8290:1 0.5 $&bPotion_of_DragonWing
+    - 373:8262:1 0.2
+    - 373:8270:1 0.7
+    - 373:8232:1 0.5
+    - 373:4532:1 0.3
+    - 373:3965:1 0.8
+    - 373:3965:1 0.8
+    - 373:3965:1 0.8
+    - 373:3437:1 0.8
+    - 373:3437:1 0.8
+    - 122:0:1 1
+    - 403:0:1 0.2 DURABILITY:3 $&5Boss_Book
+    - 403:0:1 0.2 DURABILITY:3 $&5Boss_Book
+    - 403:0:1 0.2 DAMAGE_ALL:5 $&5Boss_Book
+    - 403:0:1 0.2 SILK_TOUCH:1 $&5Boss_Book
+    - 403:0:1 0.1 LOOT_BONUS_MOBS:3 $&5Boss_Book
+    - 403:0:1 0.1 THORNS:3 $&5Boss_Book
+    - 403:0:1 0.2 OXYGEN:3 $&5Boss_Book
+    - 403:0:1 0.1 DIG_SPEED:5 $&5Boss_Book
+    - 403:0:1 0.2 ARROW_DAMAGE:5 $&5Boss_Book
+    - 403:0:1 0.1 ARROW_INFINITE:1 $&5Boss_Book
+    - 403:0:1 0.2 PROTECTION_ENVIRONMENTAL:4 $&5Boss_Book
+    - 283:0:1 1 DAMAGE_ALL:10,KNOCKBACK:10,LOOT_BONUS_MOBS:5 $&5Dragon_Sword
+  EnderGhast:
+    Type: ghast
+    Health: 10
+    Showhp: false
+    Damage: 5
+    Skills:
+    - effect ender
+    - potionboss SPEED:999:3 =9 1
+    - bossmsg 400:&3$player_defeat_EnderGhast. =0 1
+    - command xp_50_$player =0 1
+    Drops:
+    - 384:0:1 1
+    - 385:0:1 0.3
+    - 421:0:1 0.2
+  EnderGiant:
+    Type: giant
+    Health: 200
+    Showhp: true
+    Damage: 20
+    Skills:
+    - effect ender
+    - bossmsg 300:&4[WARNING]&d&nSUPER_MINION_SPAWN!! =200 1
+    - swarm $EnderZombie:1 <200 0.7
+    - swarm $EnderZombie:2 <100 0.1
+    - swarm $EnderZombie:3 <50 0.1
+    - command playsound_mob.zombie.hurt_$player_0_64_0_500_0.7 /200-0 1
+    - command playsound_mob.zombie.death_$player_0_64_0_500_0.7 =0 1
+    - bossmsg 400:&3$player_defeat_EnderGiant. =0 1
+    - command xp_3000_$player =0 1
+    Drops:
+    - 384:0:10 1
+    - 283:999:1:0 0 KNOCKBACK:10 $&5Dragon_Sword
+  EnderZombie:
+    Type: zombiebaby
+    Health: 5
+    Showhp: false
+    Damage: 4
+    Skills:
+    - effect ender
+    - bossmsg 400:&3$player_defeat_EnderZombie. =0 1
+    - command playsound_mob.zombie.death_$player_0_64_0_500_1.5 =0 1
+    - command xp_20_$player =0 1
+    Drops:
+    - 298:0,0,0:1:4 0
+    - 299:0,0,0:1:3 0
+    - 300:0,0,0:1:2 0
+    - 301:0,0,0:1:1 0
+    - 384:0:1 1
+    - 279:3500:1:0 0.01 $&4ADrenaline_Axe
+  EnderBlaze:
+    Type: blaze
+    Health: 20
+    Showhp: false
+    Damage: 5
+    Skills:
+    - effect ender
+    - bossmsg 400:&3$player_defeat_EnderBlaze. =0 1
+    - command playsound_mob.blaze.death_$player_0_64_0_500_1.0 =0 1
+    - command xp_25_$player =0 1
+    Drops:
+    - 384:0:1 1
+    - 285:0:1 0.01 DIG_SPEED:10,SILK_TOUCH:10 $&5Dragon_Pickaxe
+  EnderZombie2:
+    Type: zombiebaby
+    Health: 30
+    Showhp: false
+    Damage: 4
+    Skills:
+    - effect ender
+    - bossmsg 400:&3$player_defeat_EnderZombie. =0 1
+    - command playsound_mob.zombie.death_$player_0_64_0_500_1.5 =0 1
+    - command xp_100_$player =0 1
+    Drops:
+    - 298:0,0,0:1:4 0 PROTECTION_ENVIRONMENTAL:1
+    - 299:0,0,0:1:3 0 PROTECTION_ENVIRONMENTAL:1
+    - 300:0,0,0:1:2 0 PROTECTION_ENVIRONMENTAL:1
+    - 301:0,0,0:1:1 0 PROTECTION_ENVIRONMENTAL:1
+    - 373:8290:1 1 $&bPotion_of_DragonWing
+    - exp 100
+    - 279:0:1:0 0 DURABILITY:3,KNOCKBACK:1 $&4ADrenaline_Axe
+    - 279:0:1 1 DURABILITY:3,DAMAGE_ALL:5 $&4ADrenaline_Axe
+  EnderWitch:
+    Type: witch
+    Health: 70
+    Showhp: false
+    Damage: 10
+    Skills:
+    - effect ender
+    - effect ender
+    - bossmsg 300:&4[WARNING]&d&nSUPER_MINION_SPAWN!! =70 1
+    - command playsound_mob.villager.hit_$player_0_64_0_500_0.9 /70-0 1
+    - command playsound_mob.villager.death_$player_0_64_0_500_0.9 =0 1
+    - bossmsg 400:&3$player_defeat_EnderWitch. =0 1
+    - swarm zombievillager:1 =0 1
+    - potion 400:REGENERATION:20:1 =0 1
+    - command xp_200_$player =0 1
+    Drops:
+    - 373:8290:1 1 $&bPotion_of_DragonWing
+    - 260:0:3 1
+    - 322:0:1 1
+    - 391:0:3 1
+    - 350:0:3 1
+    - 357:0:3 1
+    - 400:0:3 1
+    - 297:0:3 1
+    - 360:0:3 1
+    - exp 400
+  BloodZombie:
+    Type: zombiebaby
+    Health: 5
+    Showhp: false
+    Damage: 1
+    Skills:
+    - bossmsg 400:&3$player_defeat_EnderZombie. =0 1
+    - command playsound_mob.zombie.death_$player_0_64_0_500_1.5 =0 1
+    - command xp_30_$player =0 1
+    Drops:
+    - 298:225,0,0:1:4 0
+    - 299:225,0,0:1:3 0
+    - 300:225,0,0:1:2 0
+    - 301:225,0,0:1:1 0
+    - 38:0:1:0 0 FIRE_ASPECT:1
+    - 384:0:1 1
+  BloodZombie2:
+    Type: zombiebaby
+    Health: 5
+    Showhp: false
+    Damage: 1
+    Skills:
+    - bossmsg 400:&3$player_defeat_EnderZombie. =0 1
+    - command playsound_mob.zombie.death_$player_0_64_0_500_1.5 =0 1
+    - command xp_300_$player =0 1
+    Drops:
+    - 298:225,0,0:1:4 0
+    - 299:225,0,0:1:3 0
+    - 300:225,0,0:1:2 0
+    - 301:225,0,0:1:1 0
+    - 417:0:1 0.5
+    - 418:0:1 0.05
+    - 38:0:1:0 0 FIRE_ASPECT:1
+    - 384:0:1 1

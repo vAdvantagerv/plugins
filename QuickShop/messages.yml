@@ -1,0 +1,98 @@
+# Colors:
+# &0-9, &a-f
+# {0}, {1}, {2}, etc are variables. You can swap them around, but adding a new variable won't work. Removing them will work
+
+not-looking-at-shop: "&c상점을 찾을수 없습니다. 상점으로 지정된 상자를 바라보고 있어야 합니다."
+no-permission: "&c권한이 없습니다."
+no-creative-break: "&c창조상태에서 다른주민의 상점을 부실수 없습니다. 서바이벌 상태에서 시도해 보세요."
+no-double-chests: "&c커다란 상자에 상점을 만들수 있는 권한이 없습니다."
+shop-already-owned: "&c이 상자는 이미 상점으로 사용중입니다."
+chest-was-removed: "&c그 상자는 철거되었습니다."
+price-too-cheap: "&c가격이 &e$0.01 보다 커야합니다."
+you-cant-afford-a-new-shop: "&c새로운 상점을 개설하기 위해서는 {0} 이 필요합니다."
+success-created-shop: "&a상점을 개설했습니다."
+success-removed-shop: "&a상점을 철거했습니다."
+shops-arent-locked: "&c상점을 보호하기 위해서는 상자보호나 부동산을 이용하세요."
+shop-creation-cancelled: "&c상점 개설이 취소되었습니다."
+shop-purchase-cancelled: "&c구매가 취소되었습니다."
+shop-stock-too-low: "&c상점의 재고가 {0} {1} 남았습니다."
+you-cant-afford-to-buy: "&c물품의 가격은 {0} 이지만, 가진돈이 {1} 밖에 없습니다."
+negative-amount: "&c적어도 1이상이 되어야지 거래할 수 있습니다."
+player-bought-from-your-store: "&c{0} 님이 당신의 상점에서 {1} {2} 를 구매하였습니다."
+shop-out-of-stock: "&5 {0}, {1}, {2},에 위치한 당신의 상점의 {3}의 재고가 다 떨어졌습니다."
+shop-has-no-space: "&c상점에 공간이 {0} 이상 {1} 밖에 없습니다."
+you-dont-have-that-many-items: "&c{0} {1} 밖에 없습니다."
+the-owner-cant-afford-to-buy-from-you: "&c가격은 {0} 이지만  {1}"
+player-sold-to-your-store: "&a{0} sold {1} {2} to your store."
+shop-out-of-space: "&5{0}, {1}, {2}에 위치한 상점이 꽉 채워졌습니다."
+price-is-now: "&a상점의 새로운 가격은&e{0} 입니다."
+thats-not-a-number: "&c알맞지 않은 숫자입니다."
+no-price-given: "&c알맞은 가격을 입력해 주세요."
+average-price-nearby: "&a평균가격: &e{0}"
+shop-has-changed: "&c사용하기 위해 클릭한 상점이 그새 변경되었습니다."
+nearby-shop-this-way: "&a해당 상점은 {0} 블럭 떨어져 있습니다."
+no-nearby-shop: "&c{0} 블럭 거리안에는 찾는 상점이 없습니다."
+buying-more-than-selling: "&c경고: 팔고 있는것보다 더 많은 물품을 구매하고 있습니다."
+not-enough-space: "&c{0}를 위한 공간이 더이상 없습니다."
+refill-success: "&a재고를 다시 채웠습니다."
+empty-success: "&a상점을 비웠습니다."
+
+menu:
+    successful-purchase: "&a성공적으로 구매했습니다:"
+    successfully-sold: "&a성공적으로 판매했습니다:"
+    item-name-and-price: "&e{0} {1} &afor &e{2}"
+    enchants: "&5Enchants"
+    stored-enchants: "&5Stored Enchants"
+    
+    shop-information: "&a상점정보:"
+    owner: "&a주인: {0}"
+    item: "&a물품: &e{0}"
+    space: "&a공간: &e{0}"
+    stock: "&a재고 &e{0}"
+    price-per: "&aPrice per &e{0} &a- &e{1}"
+    total-value-of-chest: "&a상자 총 가치: &e{0}"
+    damage-percent-remaining: "&e{0}% &aRemaining."
+    this-shop-is-buying: "&aThis shop is &dBUYING&a items."
+    this-shop-is-selling: "&aThis shop is &bSELLING&a items."
+    
+    
+bypassing-lock: "&cBypassing a QuickShop lock!"
+that-is-locked: "&cThat shop is locked."
+
+how-many-buy: "&aEnter how many you wish to &bBUY&a in chat."
+how-many-sell: "&aEnter how many you wish to &dSELL&a in chat. You have &e{0}&a available"
+
+not-allowed-to-create: "&cYou may not create a shop here."
+blacklisted-item: "&cThat item is blacklisted. You may not sell it"
+how-much-to-trade-for: "&aEnter how much you wish to trade one &e{0}&a for in chat."
+
+command:
+   #success-created-unlimited: "&aUnlimited QuickShop created."
+   toggle-unlimited: "&aShop is now {0}"
+   no-owner-given: "&cNo owner given. Use &a/qs setowner <player>&c"
+   new-owner: "&aNew owner: &e{0}"
+   now-buying: "&aNow &dBUYING&a &e{0}"
+   now-selling: "&aNow &bSELLING &e{0}"
+   cleaning: "&aCleaning up shops with 0 stock..."
+   reloading: "&aReloading..."
+   cleaned: "&aCleaned &e{0}&a shops"
+   no-type-given: "&cUsage: /qs find <item>"
+   description:
+       title: "&aQuickShop Help"
+       unlimited: "&eMakes a shop unlimited"
+       setowner: "&eChanges who owns a shop"
+       buy: "&eChanges a shop to &dBUY&e mode"
+       sell: "&eChanges a shop to &bSELL&e mode"
+       clean: "&eRemoves all (loaded) shops with 0 stock"
+       price: "&eChanges the buy/selling price of one of your shops"
+       find: "&eLocates the nearest shop of a specific type."
+       reload: "&eReloads QuickShop from config.yml"
+       refill: "&eAdds a given number of items to a shop"
+       empty: "&eRemoves all stock from a shop"
+       
+signs:
+    #Line 1 is used as an identifier at the moment, so I kind of need it to work, thats why I won't let you change it
+    #Line 3 is the item name... There really isnt anything to change.
+    selling: "Selling"
+    buying: "Buying"
+    price: "For {0} each"

@@ -1,0 +1,68 @@
+PlayerFreeze:
+  Strings:
+    english:
+      FREEZE_WARNED_PLAYER: ' was warned and is now frozen.'
+      FREEZE_ALREADY_FROZEN: ' is already frozen.'
+      FREEZE_SUCCESS: ' is now frozen.'
+      FREEZE_NOTIFY_NOMESSAGE: You are now frozen.
+      FREEZE_NOTIFY_MESSAGE: 'You are now frozen for '
+      FREEZE_STATUS: ' is frozen.'
+      WARN_ALREADY_FROZEN: ' is frozen.'
+      WARN_ALREADY_WARNED: ' is already warned.'
+      WARN_SUCCESS: ' is now warned.'
+      WARN_NOTIFY_NOMESSAGE: You have been warned.
+      WARN_NOTIFY_MESSAGE: 'You have been warned for '
+      WARN_ACKNOWLEDGE_PLAYER: You have acknowledged your warning.
+      WARN_ACKNOWLEDGE_ADMIN: ' has acknowledged his warning.'
+      WARN_STATUS: ' is warned.'
+      UNWARN_SUCCESS_PLAYER: You have been unwarned.
+      UNWARN_SUCCESS_ADMIN: ' has been freed.'
+      UNWARN_NO_PERMISSION: You don t have permission to unwarn this player.
+      UNFREEZE_SUCCESS_PLAYER: You have been unfrozen.
+      UNFREEZE_SUCCESS_ADMIN: ' has been freed.'
+      UNFREEZE_NO_PERMISSION: You don t have permission to unfreeze this player.
+      UNFREEZE_NOT_FROZEN: ' is not frozen.'
+      GENERAL_NO_PERMISSION: Permission denied.
+      GENERAL_NO_CONSOLE: This command cannot be issued by console.
+      GENERAL_INVALID_PLAYER: ' not found.'
+      LIST_AMOUNT_FROZEN: ' players frozen.'
+      LIST_NO_FROZEN: No frozen players at this moment.
+      LIST_AMOUNT_WARNED: ' players warned.'
+      LIST_NO_WARNED: No warned players at this moment.
+      FREEZEALL_NOTIFY_PLAYERS: All players have been frozen.
+      FREEZEALL_NOTIFY_ADMINS: 'All players have been frozen by '
+      WARNALL_NOTIFY_PLAYERS: All players have been warned.
+      WARNALL_NOTIFY_ADMINS: 'All players have been warned by '
+    korean:
+      FREEZE_WARNED_PLAYER: ' was warned and is now frozen.'
+      FREEZE_ALREADY_FROZEN: ' is already frozen.'
+      FREEZE_SUCCESS: ' is now frozen.'
+      FREEZE_NOTIFY_NOMESSAGE: You are now frozen.
+      FREEZE_NOTIFY_MESSAGE: 'You are now frozen for '
+      FREEZE_STATUS: ' is frozen.'
+      WARN_ALREADY_FROZEN: ' is frozen.'
+      WARN_ALREADY_WARNED: ' is already warned.'
+      WARN_SUCCESS: ' is now warned.'
+      WARN_NOTIFY_NOMESSAGE: You have been warned.
+      WARN_NOTIFY_MESSAGE: 'You have been warned for '
+      WARN_ACKNOWLEDGE_PLAYER: You have acknowledged your warning.
+      WARN_ACKNOWLEDGE_ADMIN: ' has acknowledged his warning.'
+      WARN_STATUS: ' is warned.'
+      UNWARN_SUCCESS_PLAYER: You have been unwarned.
+      UNWARN_SUCCESS_ADMIN: ' has been freed.'
+      UNWARN_NO_PERMISSION: You don t have permission to unwarn this player.
+      UNFREEZE_SUCCESS_PLAYER: You have been unfrozen.
+      UNFREEZE_SUCCESS_ADMIN: ' has been freed.'
+      UNFREEZE_NO_PERMISSION: You don t have permission to unfreeze this player.
+      UNFREEZE_NOT_FROZEN: ' is not frozen.'
+      GENERAL_NO_PERMISSION: Permission denied.
+      GENERAL_NO_CONSOLE: This command cannot be issued by console.
+      GENERAL_INVALID_PLAYER: ' not found.'
+      LIST_AMOUNT_FROZEN: ' players frozen.'
+      LIST_NO_FROZEN: No frozen players at this moment.
+      LIST_AMOUNT_WARNED: ' players warned.'
+      LIST_NO_WARNED: No warned players at this moment.
+      FREEZEALL_NOTIFY_PLAYERS: All players have been frozen.
+      FREEZEALL_NOTIFY_ADMINS: 'All players have been frozen by '
+      WARNALL_NOTIFY_PLAYERS: All players have been warned.
+      WARNALL_NOTIFY_ADMINS: 'All players have been warned by '

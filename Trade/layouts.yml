@@ -1,0 +1,132 @@
+# The default and default-currency layouts are just templates! Feel free to change them.
+#  Don't forget to change the custom-layout in the config.yml as well!
+template-default:
+  id: ITEM
+  slots:
+    '6':
+      action:
+        accept: 3
+        refuse: 4
+        status: 5
+      seperation: 13, 22, 31, 40, 49
+      trade:
+        left: 0,1,2,9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39,45,46,47,48
+        right: 6,7,8,14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44,50,51,52,53
+  items:
+    action:
+      accept:
+        id: 35
+        amount: 1
+        data: 5
+        label: Accept
+      accepted:
+        id: 35
+        amount: 1
+        data: 5
+        label: You have accepted the trade. Click to deny.
+      refuse:
+        id: 35
+        amount: 1
+        data: 14
+        label: Refuse
+      pending:
+        id: 35
+        amount: 1
+        data: 8
+        label: Waiting for other to accept.
+      separator:
+        id: 280
+        amount: 1
+        data: 0
+        label: ''
+template-currency:
+  id: CURRENCY
+  slots:
+    '6':
+      action:
+        accept: 3
+        refuse: 4
+        status: 5
+      seperation: 13, 22, 31, 40, 49
+      trade:
+        left: 9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39
+        right: 14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44,50
+      currency:
+        change:
+          small: 45
+          medium: 46
+          large: 47
+        display:
+          left:
+            small: 0
+            medium: 1
+            large: 2
+          right:
+            small: 6
+            medium: 7
+            large: 8
+  currency:
+    small: 1
+    medium: 10
+    large: 50
+  items:
+    action:
+      accept:
+        id: 35
+        amount: 1
+        data: 5
+        label: Accept
+      accepted:
+        id: 35
+        amount: 1
+        data: 5
+        label: You have accepted the trade. Click to deny.
+      refuse:
+        id: 35
+        amount: 1
+        data: 14
+        label: Refuse
+      pending:
+        id: 35
+        amount: 1
+        data: 8
+        label: Waiting for other to accept.
+      separator:
+        id: 280
+        amount: 1
+        data: 0
+        label: ''
+    currency:
+      change:
+        small:
+          id: 371
+          amount: 1
+          data: 0
+          label: Left click to add 1 dollar. Right click to remove 1 dollar.
+        medium:
+          id: 266
+          amount: 1
+          data: 0
+          label: Left click to add 10 dollars. Right click to remove 10 dollars.
+        large:
+          id: 41
+          amount: 1
+          data: 0
+          label: Left click to add 50 dollars. Right click to remove 50 dollars.
+      display:
+        small:
+          id: 371
+          amount: 1
+          data: 0
+          label: Click to remove 1 dollar.
+        medium:
+          id: 266
+          amount: 1
+          data: 0
+          label: Click to remove 10 dollars.
+        large:
+          id: 41
+          amount: 1
+          data: 0
+          label: Click to remove 50 dollars.
+version: 0.5.5b

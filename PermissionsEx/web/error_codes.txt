@@ -1,0 +1,39 @@
+Error Codes
+
+100's | Removing Permission Node From user
+	101 - Nothing Selected
+    102 - Query Failed
+    
+200's | Adding Permission Nodes To User
+	201 - Fields Blank
+	202 - Query Failed
+	
+300's | Removing Permission Node From Group
+	301 - Nothing Selected
+	302 - Query Failed
+	
+400's | Adding Permission Nodes To Group
+	401 - Fields Blank
+	402 - Query Failed
+	
+500's | User Group Change
+	502 - Query Failed
+	
+600's | User Prefix Change
+	601 - Incorrect Color Code
+	602 - Query Failed
+	
+700's | User Suffix
+	701 - Incorrect Color Code
+	702 - Query Failed
+	
+800's | Group Prefix
+	801 - Invalid Data
+	802 - Query Failed
+	
+900's | Group Suffix
+	901 - Invalid Data
+	902 - Query Failed
+	
+1000's | Setting Changes
+	1002 - Query Failed

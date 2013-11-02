@@ -1,0 +1,12 @@
+debug: none
+stats: true
+tracker: true
+modulecheck: true
+language: en
+onlyPVPinArena: false
+update: both
+updatetype: beta
+safeadmin: true
+whitelist:
+- ungod
+ver: 1
