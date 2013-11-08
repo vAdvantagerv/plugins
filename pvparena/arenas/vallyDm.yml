@@ -110,13 +110,13 @@ block:
 goals:
 - PlayerLives
 mods:
-- BetterFight
-- BlockRestore
 - StandardSpectate
+- Vault
+- BlockRestore
+- BetterFight
+- StandardLounge
 - Announcements
 - BattlefieldJoin
-- StandardLounge
-- Vault
 msg:
   lounge: Welcome to the arena lounge! Hit a class sign and then the iron block to flag yourself as ready!
   playerjoined: '%1% joined the Arena!'

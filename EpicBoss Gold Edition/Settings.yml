@@ -1,0 +1,8 @@
+# SaveInterval: how often it should save in minutes
+# TimerUpdate: How often in seconds should timers update
+# WalkUpdate: How often in seconds the walk should update
+SaveInterval: 1
+TimerUpdate: 1
+WalkUpdate: 30
+ShowHealth: '&8[&6EpicBoss&8] $boss &8[&4$percentage% left&8]'
+ShowHealthRadius: 25

@@ -95,8 +95,8 @@ block:
 goals:
 - PlayerDeathMatch
 mods:
-- StandardSpectate
 - Announcements
+- StandardSpectate
 - BattlefieldJoin
 - Vault
 - StandardLounge

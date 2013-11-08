@@ -1,0 +1,5 @@
+spawning1:
+  Mobname: zombieking
+  Worlds: world
+  Chance: 1.0E-4
+  Priority: 1
