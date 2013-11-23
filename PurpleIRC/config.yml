@@ -1,0 +1,70 @@
+# Global configuration for PurpleIRC
+# How often we check to see if a bot is connected to the IRC server. This is in server ticks (There 20 ticks in one sec).
+conn-check-interval: 1000
+enable-ident-server: false
+channel-check-interval: 100
+message-format:
+  console-chat: '&0[&5Server&0] %MESSAGE%'
+  game-action: '&0[&2%WORLD%&0] ***%NAME%&0 %MESSAGE%'
+  game-pchat: '&0[&2%WORLD%&0]<%NAME%&0> %MESSAGE%'
+  game-pchat-response: ' &6-> &7%TARGET%: %MESSAGE%'
+  game-chat: '&0[&2%WORLD%&0]<%NAME%&0> %MESSAGE%'
+  game-death: '&0[&2%WORLD%&0] %MESSAGE%'
+  game-kick: '&0[&2%WORLD%&0] %MESSAGE%'
+  game-join: '&0[&2%WORLD%&0] %MESSAGE%'
+  game-quit: '&0[&2%WORLD%&0] %MESSAGE%'
+  game-command: '&0[&2%WORLD%&0] Command detected by %NAME%: %COMMAND% %PARAMS%'
+  game-send: '&0[&2%WORLD%&0]<%NAME%&0> %MESSAGE%'
+  ess-player-afk: '&0[&2%WORLD%&0] %NAME% &0is now AFK'
+  ess-player-not-afk: '&0[&2%WORLD%&0] %NAME% &0is no longer AFK'
+  irc-action: '&f[&4IRC&f] ***%NAME%&f %MESSAGE%'
+  irc-chat: '&f[&4IRC&f]<%NAME%&f> %MESSAGE%'
+  irc-pchat: '&dPrivate message: &f[&4IRC&f]<%NAME%&f> %MESSAGE%'
+  irc-pchat-response: ' &6-> &7%TARGET%: %MESSAGE%'
+  irc-hchat-response: ' &6-> &7%TARGET%: %MESSAGE%'
+  irc-join: '&f[&4IRC&f] %NAME%&f has joined %CHANNEL%.'
+  irc-kick: '&f[&4IRC&f] %NAME%&f was kicked from %CHANNEL% by %KICKER%. (Reason-
+    %REASON%)'
+  irc-part: '&f[&4IRC&f] %NAME%&f has left %CHANNEL%.'
+  irc-quit: '&f[&4IRC&f] %NAME%&f has left %CHANNEL%. (Reason: %REASON%)'
+  irc-topic: '&f[&4IRC&f] Topic changed by %NAME%&0: %TOPIC%.'
+  irc-nickchange: '&f[&4IRC&f] %OLDNICK% is now known as %NEWNICK%.'
+  irc-mode: '&f[&4IRC&f] %NAME%&f %MODE% on %CHANNEL%'
+  irc-notice: '&f[&4IRC&f] [notice(%CHANNEL%)] %NOTICE% '
+  clever-send: '&0[&4BOT&0]<%NAME%&0> %MESSAGE%'
+  mcmmo-admin-chat: '&0[admin:%WORLD%&0]<%NAME%&0> %MESSAGE%'
+  mcmmo-party-chat: '&0[party:%PARTY%&0]<%NAME%&0> %MESSAGE%'
+  faction-public-chat: '&0[%FACTIONMODE%] &0[%FACTIONTAG%&0]<%NAME%&0> %MESSAGE%'
+  faction-ally-chat: '&0[%FACTIONMODE%] &0[%FACTIONTAG%&0]<%NAME%&0> %MESSAGE%'
+  faction-enemy-chat: '&0[%FACTIONMODE%] &0[%FACTIONTAG%&0]<%NAME%&0> %MESSAGE%'
+  hero-chat: '&0[%CHANNEL%&0]<%NAME%&0> %MESSAGE%'
+  hero-action: '&0[&2%CHANNEL%&0] ***%NAME%&0 %MESSAGE%'
+  irc-hero-action: '&f[&3IRC&f] ***%NAME%&f %MESSAGE%'
+  irc-hero-chat: '&f[&3IRC&f]<%NAME%&f> %MESSAGE%'
+  irc-hero-join: '&f[&3IRC&f] %NAME%&f has joined %CHANNEL%.'
+  irc-hero-kick: '&f[&3IRC&f] %NAME%&f was kicked from %CHANNEL% by %KICKER%. (Reason-
+    %REASON%)'
+  irc-hero-part: '&f[&3IRC&f] %NAME%&f has left %CHANNEL%.'
+  irc-hero-quit: '&f[&3IRC&f] %NAME%&f has left %CHANNEL%.'
+  irc-hero-topic: '&f[&3IRC&f] Topic changed by %NAME%&f: %TOPIC%.'
+  titan-chat: '&0[%CHANNEL%&0]<%NAME%&0> %MESSAGE%'
+  irc-titan-chat: '&f[&3IRC&f]<%NAME%&f> %MESSAGE%'
+  invalid-irc-command: I'm sorry '%NICK%' I can't do that. Type '%CMDPREFIX%help' for a list of commands I might respond to.
+  no-perm-for-irc-command: I'm sorry '%NICK%' you are not authorized to do that. Type '%CMDPREFIX%help' for a list of commands I might respond to.
+  rts-notify: '[RTS] <%NAME%> %MESSAGE%'
+  irc-hero-channels:
+    Global: '&f[G]&f[IRC]%PLAYERPREFIX%%NAME%&f %MESSAGE%'
+  broadcast-message: '[Broadcast] <%NAME%> %MESSAGE%'
+  broadcast-console-message: '[Broadcast] <Console> %MESSAGE%'
+  default-player-suffix: ''
+  default-player-prefix: ''
+  default-group-suffix: ''
+  default-group-prefix: ''
+  default-player-world: world
+  default-player-group: ''
+strip-game-colors: false
+strip-irc-colors: false
+custom-tab-list: false
+custom-tab-prefix: '[IRC] '
+nick-exact-match: true
+Debug: false
