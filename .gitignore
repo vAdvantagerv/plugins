@@ -13,6 +13,7 @@ AuthMe/players.yml
 CommandBook/sessions/
 CommandBook/bans.csv
 CraftIRC/
+PurpleIRC/bots/
 dynmap/web/tiles/
 dynmap/web/standalone/*.json
 Gringotts/GringottsDB/
