@@ -22,7 +22,7 @@ define('WEB_UI_DEBUG', false);
 
 define("MYSQL_HOSTNAME", "localhost");
 define("MYSQL_USERNAME", "minecraft");
-define("MYSQL_PASSWORD", "q1w2e3r4");
+define("MYSQL_PASSWORD", "minecraft");
 define("MYSQL_DATABASE", "minecraft");
 define("MYSQL_PORT", 3306);
 

@@ -9,6 +9,7 @@ dynmap-border-enabled: true
 dynmap-border-message: 세상의 끝.
 portal-redirection: true
 remount-delay-ticks: 0
+player-killed-bad-spawn: false
 worlds:
   world:
     x: 0.0

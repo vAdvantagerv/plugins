@@ -98,10 +98,10 @@ goals:
 mods:
 - BattlefieldJoin
 - StandardLounge
-- BlockRestore
-- Announcements
 - StandardSpectate
 - Vault
+- BlockRestore
+- Announcements
 msg:
   lounge: Welcome to the arena lounge! Hit a class sign and then the iron block to flag yourself as ready!
   playerjoined: '%1% joined the Arena!'
@@ -259,4 +259,4 @@ spawns:
   spawn3: world,1665,52,1035,-264.1614990234375,11.250007629394531
   spawn4: world,1646,52,1034,-90.31149291992188,21.750011444091797
 arenaregion:
-  battlefield: world,1638,42,1015,1669,57,1051,CUBOID,0,0,BATTLE
+  battlefield: world,1638,42,1015,1669,57,1051,cuboid,0,0,BATTLE

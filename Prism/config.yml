@@ -1,9 +1,7 @@
 prism:
   debug: false
-  notify-newer-versions: true
   allow-metrics: true
   database:
-    mode: mysql
     max-pool-connections: 20
     pool-initial-size: 10
     max-idle-connections: 10
@@ -11,14 +9,13 @@ prism:
     max-failures-before-wait: 5
     wait-on-failure-duration: 5
     actions-per-insert-batch: 1000
+    mode: mysql
   mysql:
     hostname: localhost
     username: minecraft
     password: minecraft
     database: minecraft
     port: '3306'
-  sqlite:
-    enable-delete-limit: false
   wands:
     default-mode: hand
     default-item-mode-id: '280:0'
@@ -81,6 +78,7 @@ prism:
   tracking:
     block-break: true
     block-burn: true
+    block-dispense: true
     block-fade: true
     block-fall: true
     block-form: true
@@ -210,6 +208,9 @@ prism:
     vanilla-xray:
       enabled: true
   queue-empty-tick-delay: 3
+  sqlite:
+    enable-delete-limit: false
+  notify-newer-versions: true
   default-radius: 10
   default-time-since: 3d
   max-radius-unless-overridden: 100

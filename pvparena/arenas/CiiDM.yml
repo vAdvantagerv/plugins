@@ -96,10 +96,10 @@ goals:
 - PlayerDeathMatch
 mods:
 - Announcements
+- StandardLounge
+- Vault
 - StandardSpectate
 - BattlefieldJoin
-- Vault
-- StandardLounge
 msg:
   lounge: Welcome to the arena lounge! Hit a class sign and then the iron block to flag yourself as ready!
   playerjoined: '%1% joined the Arena!'
@@ -260,4 +260,4 @@ spawns:
   lounge: world,1643,43,1076,-359.8604736328125,6.449791431427002
   spectator: world,1642,50,1075,-1.059814453125,11.69979476928711
 arenaregion:
-  battlefield: world,1632,39,1082,1653,52,1103,CUBOID,0,4095,BATTLE
+  battlefield: world,1632,39,1082,1653,52,1103,cuboid,0,4095,BATTLE

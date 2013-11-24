@@ -15,6 +15,9 @@ nulang:
       done: Arena reloaded!
     remove:
       done: 'Arena removed: &e%1%&r'
+    setup:
+      disabled: 'Disabled setup mode for arena: %1%'
+      enabled: 'Enabled setup mode for arena: %1%'
     startingin: Enough players ready. Starting in %1%!
     start:
       done: Arena force started!
@@ -160,6 +163,7 @@ nulang:
     regionnotbeingcreated: A region is not being created!
     regionnotremoved: There is no region setup.
     select2: Select two points before trying to save.
+    setupmode: setup mode!
     spawn:
       unknown: 'Unknown spawn: &a%1%&r'
     spawnfree: Error! Arena is of type free. Use 'spawnX' where X is a digit or letter!
@@ -428,6 +432,7 @@ nulang:
     duel:
       accepted: '%1% &eaccepted the challenge! The game is starting.'
       announce: '%1% &echallenged you! Accept the duel with &f/pa %2% accept.'
+      requested: You &echallenged &f%1%&e!
       starting: The duel begins!
     fixinventorylos:
       gamemode: Enter survival gamemode before joining!

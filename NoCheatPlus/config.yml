@@ -373,6 +373,9 @@ checks:
         loginticks: 0
         falldamage: true
         sfviolation: 500
+    vehicles:
+      preventdestroyown: true
+      enforcelocation: true
     velocity:
       graceticks: 20
       activationcounter: 80
