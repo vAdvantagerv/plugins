@@ -1,19 +1,129 @@
-SwordOfStr:
-  Id: 276
+DragonSword:
+  Id: 283
   Data: 0
   Amount: 1
-  Display: '&3Sword of Strength'
-  Tags:
-    Speed: 0.01
-    Health: 4
+  Display: '&5Dragon Sword'
   Lores:
-  - '&5This is a rare item'
-  - '&5that only the strongest'
-  - '&5players can get...'
+  - ''
+  - '&9+9 Attack Damage'
+  - '&cEnderDragon Treasure'
   Enchants:
   - DAMAGE_ALL:5
-  - KNOCKBACK:2
-  - FIRE_ASPECT:2
+  - KNOCKBACK:5
+DragonPotion:
+  Id: 373
+  Data: 8290
+  Amount: 1
+  Display: '&bPotion of DragonWing'
+  Lores:
+  - '&cEnderDragon Treasure'
+ADrenalineAxe:
+  Id: 279
+  Data: 0
+  Amount: 1
+  Display: '&4ADrenaline Axe'
+  Lores:
+  - ''
+  - '&9+15 Attack Damage'
+  - '&cEnderDragon Treasure'
+  Enchants:
+  - DAMAGE_ALL:5
+  - DURABILITY:3
+ADrenalineAxe2:
+  Id: 279
+  Data: 3500
+  Amount: 1
+  Display: '&4ADrenaline Axe'
+  Lores:
+  - '&7Unbreaking 0'
+  - '&7Sharpness 0'
+  - ''
+  - '&9+6 Attack Damage'
+EZcap:
+  Id: 298
+  Data: 0
+  Amount: 1
+  Lores:
+  - ''
+  - '&4EnderZombie cap'
+  Tags:
+    Color: 0,0,0
+EZtunic:
+  Id: 299
+  Data: 0
+  Amount: 1
+  Lores:
+  - ''
+  - '&4EnderZombie tunic'
+  Tags:
+    Color: 0,0,0
+EZpants:
+  Id: 300
+  Data: 0
+  Amount: 1
+  Lores:
+  - ''
+  - '&4EnderZombie pants'
+  Tags:
+    Color: 0,0,0
+EZboots:
+  Id: 301
+  Data: 0
+  Amount: 1
+  Lores:
+  - ''
+  - '&4EnderZombie boots'
+  Tags:
+    Color: 0,0,0
+BZcap:
+  Id: 298
+  Data: 0
+  Amount: 1
+  Lores:
+  - ''
+  - '&4EnderZombie cap'
+  Tags:
+    Color: 200,0,0
+BZtunic:
+  Id: 299
+  Data: 0
+  Amount: 1
+  Lores:
+  - ''
+  - '&4EnderZombie tunic'
+  Tags:
+    Color: 200,0,0
+BZpants:
+  Id: 300
+  Data: 0
+  Amount: 1
+  Lores:
+  - ''
+  - '&4EnderZombie pants'
+  Tags:
+    Color: 200,0,0
+BZboots:
+  Id: 301
+  Data: 0
+  Amount: 1
+  Lores:
+  - ''
+  - '&4EnderZombie boots'
+  Tags:
+    Color: 200,0,0
+BZflower:
+  Id: 38
+  Data: 0
+  Amount: 1
+  Lores:
+  - ''
+  - '&4EnderZombie flower'
+  Enchants:
+  - FIRE_ASPECT:1
+Chest:
+  Id: 54
+  Data: 0
+  Amount: 1
 HoeOfSpeed:
   Id: 292
   Data: 0
@@ -48,7 +158,7 @@ Mask:
     Health: 20
     KnockbackRes: 10
     Player: ThaH3lper
-Chest:
+Chestx:
   Id: 299
   Data: 0
   Amount: 1
@@ -62,3 +172,4 @@ Chest:
   Tags:
     Health: 5
     Color: 255,0,0
+
