@@ -8,7 +8,7 @@ Bosses:
     - effect ender
     - effect ender
     - effect ender
-    - command say_ENDERDRAGON_HAS_BEEN_SPAWN! =400 1
+    - command say_ENDERDRAGON_HAS_BEEN_SPAWN!! =400 1
     - bossmsg 300:&dBLINDNESS! =399 1
     - potion 300:BLINDNESS:2:1 =399 1
     - potion 300:SLOW:2:3 =383 1
