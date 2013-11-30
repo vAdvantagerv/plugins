@@ -1,42 +1,147 @@
-zombieking:
-  Mobtype: zombie
-  Display: '&6Zombie King'
-  Health: 200
-  Damage: 10
+Enderdragon:
+  Mobtype: enderdragon
+  Display: '&4E&cnderdragon'
+  Health: 4
+  Damage: 1
   ShowHealth: true
   Despawn: false
   Skills:
-  - pack Heal <0 0.18
-  - cmd 'say $player work more!' =100 1
+  - cmd 'say ENDERDRAGON SPAWN DETECTED.' =400 1
+  - msg 8:'&4You are too proximity Enderdragon.' <400 1
+  - cmd 'playsound ambient.cave.cave $player 0 64 0 500 0.9' <400 0.3
+  - cmd 'playsound mob.wither.spawn $player 0 64 0 500 0.8' =50 1
+  - pack EnderdragonDeath =0 1
   Loot:
-  - loot5
-  - loot3
-  Equipment:
-  - loot4
-fairboss:
-  Mobtype: skeleton
-  Display: '&dHardcore Boss'
+  - EDloot
+EnderGiant:
+  Mobtype: giant
+  Display: EnderGiant
   Health: 100
-  Damage: 10
-  ShowHealth: true
+  Damage: 20
+  ShowHealth: false
   Despawn: false
   Skills:
-  - pack SwarmZombie =50 1
-  - swarm zombie:1:5 <0 0.2
+  - msg 300:'&4[WARNING]&d&nSUPER MINION SPAWN!!' =200 1
+  - swarm $EnderZombie:1:1 <200 0.7
+  - swarm $EnderZombie:1:1 <100 0.1
+  - cmd 'playsound mob.zombie.hurt $player 0 64 0 500 0.7' <200 1
+  - cmd 'playsound mob.zombie.death $player 0 64 0 500 0.7' =0 1
+  - consume 400:400:40:0:ZOMBIE =0 1
+  - consume 400:400:40:0:ENDERMAN =0 1
+  - pack EnderdragonDeath =0 1
+  - cmd 'xp 3000 $player' =0 1
+EnderZombie:
+  Mobtype: babyzombie
+  Display: EnderZombie
+  Health: 2
+  Damage: 3
+  ShowHealth: false
+  Despawn: false
+  Skills:
+  - cmd 'xp 20 $player' =0 1
   Loot:
-  - loot1:1
-  - loot2:2
-  - loot3:3
+  - Exp
+  - ADrenalineAxe2
   Equipment:
-  - loot5
-sheep:
-  Mobtype: sheep
-  Display: '&2Green Sheep'
-  Health: 500
+  - EZset
+EnderZombie2:
+  Mobtype: babyzombie
+  Display: EnderZombie
+  Health: 30
+  Damage: 3
+  ShowHealth: false
+  Despawn: false
+  Skills:
+  - cmd 'xp 200 $player' =0 1
+  Loot:
+  - Exp
+  - ADrenalineAxe
+  Equipment:
+  - EZset
+BloodZombie:
+  Mobtype: babyzombie
+  Display: EnderZombie
+  Health: 5
+  Damage: 1
+  ShowHealth: false
+  Despawn: false
+  Skills:
+  - msg 400:'&3$player defeat EnderZombie.' =0 1
+  - cmd 'xp 50 $player' =0 1
+  Loot:
+  - Exp
+  Equipment:
+  - BZset
+EnderGhast:
+  Mobtype: ghast
+  Display: ' '
+  Health: 5
+  Damage: 1
+  ShowHealth: false
+  Despawn: false
+  Skills:
+  - msg 400:'&3$player defeat EnderGhast.' =0 1
+  - radiusfirework 2:2:BURST:255,0,0:false:true =0 1
+  - cmd 'xp 100 $player' =0 1
+  Loot:
+  - Exp
+  - EGloot
+BloodZombie2:
+  Mobtype: babyzombie
+  Display: EnderZombie
+  Health: 5
+  Damage: 1
+  ShowHealth: false
+  Despawn: false
+  Skills:
+  - msg 400:'&3$player defeat EnderZombie.' =0 1
+  - consume 400:400:40:0:ZOMBIE =0 1
+  - cmd 'xp 50 $player' =0 1
+  Loot:
+  - Exp
+  - PotionOfDragonWing
+  Equipment:
+  - BZset
+ChestForEZ:
+  Mobtype: squid
+  Display: ''
+  Health: 1
   Damage: 0
-  ShowHealth: true
+  ShowHealth: false
+  Despawn: false
+  Skills:
+  - potionboss INVISIBILITY:999:99 =1 1
+  - swarm $EnderZombie:4:10 =0 1
+ChestForBZ:
+  Mobtype: squid
+  Display: ''
+  Health: 1
+  Damage: 0
+  ShowHealth: false
+  Despawn: false
+  Skills:
+  - potionboss INVISIBILITY:999:99 =1 1
+  - swarm $BloodZombie:4:10 =0 1
+  - swarm $BloodZombie2:1:10 =0 0.01
+ChestForEZ2:
+  Mobtype: squid
+  Display: ''
+  Health: 1
+  Damage: 0
+  ShowHealth: false
+  Despawn: false
+  Skills:
+  - potionboss INVISIBILITY:999:99 =1 1
+  - swarm $EnderZombie2:4:10 =0 1
+Spider:
+  Mobtype: cavespider
+  Display: ' '
+  Health: 20
+  Damage: 1
+  ShowHealth: false
   Despawn: false
   Tags:
-    Color: 10
-rider:
-  Bosslist: sheep,zombieking
+    Followrange: 30
+EnderJokey:
+  Bosslist: Spider,EnderZombie
+
