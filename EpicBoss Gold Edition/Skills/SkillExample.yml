@@ -8,3 +8,18 @@ SwarmZombie:
   - msg 50:'&4Take THIS!' <0 1
   - radiousfirework 10:5:BALL:200,0,100:false:true <0 1
   - swarm zombie:10:5 <0 1
+EnderdragonDeath:
+  Skills:
+  - potion 400:REGENERATION:3:10 =0 1
+  - potion 400:DAMAGE_RESISTANCE:60:10 =0 1
+  - potion 400:FIRE_RESISTANCE:60:10 =0 1
+  - potion 400:WATER_BREATHING:60:10 =0 1
+  - potion 400:INCREASE_DAMAGE:60:10 =0 1
+  - consume 400:400:40:0:ZOMBIE =0 1
+  - consume 400:400:40:0:ENDERMAN =0 1
+  - consume 400:400:40:0:GHAST =0 1
+  - consume 400:400:40:0:GIANT =0 1
+  - consume 400:400:40:0:BLAZE =0 1
+  - consume 400:400:40:0:WITCH =0 1
+  - consume 400:400:40:0:SQUID =0 1
+  - cmd 'xp 40000 $player' =0 1
