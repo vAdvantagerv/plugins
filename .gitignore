@@ -16,6 +16,8 @@ CraftIRC/
 PurpleIRC/bots/
 dynmap/web/tiles/
 dynmap/web/standalone/*.json
+dynmap/ids-by-ip.txt
+dynmap/hiddenplayers.txt
 Gringotts/GringottsDB/
 MobArena/inventories/
 MobArena/arenas/
