@@ -21,10 +21,10 @@ Misc:
   #If the player not Online on the Server the login will fail
   AllowLogOnlyIfOnline: false
   # if you want to use External WebServer
-  EnableExternalSource: false
+  EnableExternalSource: true
   # Put the ip/url address of your host ( external source ) where you put the html folder 
   # ( or * to allow all sources NOT RECOMMENDED )
-  Allow: http://yourwebsite.com
+  Allow: http://minec.wo.tc/shop/
   # Port number for webserver 
   # Check if your host not will block that port
   # Check if your server is not behind firewall
